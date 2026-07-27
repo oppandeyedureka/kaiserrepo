@@ -46,7 +46,7 @@ class Salesman(Employee):
 
 #show polymorphic behavior
 def processEmpDetails(empObj):
-    0
+    print(type(empObj))
     print(empObj.showempDetails())
     print(empObj.showTotalSalary())
 
