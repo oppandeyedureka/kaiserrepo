@@ -6,8 +6,17 @@ class Employee:
     def __init__(self,empname,salary):
         Employee.IDGenerator = Employee.IDGenerator + 1
         self.empid = Employee.IDGenerator
-        self.empname = empname
-        self.salary = salary
+
+        #raise exception based on condition
+        if empname.len()<=0:
+            raise ValueError("Emp Name cannot be empty")
+        else:
+            self.empname = empname
+        
+        if salary<=0:
+                raise ValueError("Incorrect Salary value")
+        else:
+            self.salary = salary
 
     #display emp details
     def showempDetails(self):
@@ -21,7 +30,10 @@ class Employee:
 class Manager(Employee):
     def __init__(self,empname,salary,perks):
         super().__init__(empname, salary)
-        self.perks = perks
+        if perks<0:
+            raise ValueError("Perks cannot be -ve")
+        else:
+            self.perks = perks
 
     def showTotalSalary(self):
         return self.salary + self.perks
@@ -30,7 +42,10 @@ class Manager(Employee):
 class Clerk(Employee):
     def __init__(self,empname,salary,overtime):
         super().__init__(empname,salary)
-        self.overtime = overtime
+        if overtime<0:
+            raise ValueError("Overtime cannot be -ve")
+        else:
+            self.overtime = overtime
 
     def showTotalSalary(self):
         return self.salary + self.overtime
@@ -39,7 +54,10 @@ class Clerk(Employee):
 class Salesman(Employee):
     def __init__(self,empname,salary,commission):
         super().__init__(empname, salary)
-        self.commission = commission
+        if commission<0:
+            raise ValueError("commission cannot be -ve")
+        else:
+            self.commission = commission
 
     def showTotalSalary(self):
         return self.salary + self.commission
