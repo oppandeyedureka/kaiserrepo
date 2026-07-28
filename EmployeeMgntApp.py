@@ -6,15 +6,20 @@ class Employee:
     def __init__(self,empname,salary):
         Employee.IDGenerator = Employee.IDGenerator + 1
         self.empid = Employee.IDGenerator
-
-        #raise exception based on condition
-        if empname.len()<=0:
+        self.setEmpName(empname)
+        self.setSalary(salary)
+        
+    #centralize validation logic
+    def setEmpName(self, empname):
+    #raise exception based on condition
+        if len(empname)<=0:
             raise ValueError("Emp Name cannot be empty")
         else:
             self.empname = empname
-        
+
+    def setSalary(self, salary):
         if salary<=0:
-                raise ValueError("Incorrect Salary value")
+            raise ValueError("Incorrect Salary value")
         else:
             self.salary = salary
 
@@ -30,6 +35,9 @@ class Employee:
 class Manager(Employee):
     def __init__(self,empname,salary,perks):
         super().__init__(empname, salary)
+        self.setPerks(perks)
+
+    def setPerks(self, perks):
         if perks<0:
             raise ValueError("Perks cannot be -ve")
         else:
@@ -42,11 +50,13 @@ class Manager(Employee):
 class Clerk(Employee):
     def __init__(self,empname,salary,overtime):
         super().__init__(empname,salary)
+        self.setOvertime(overtime)
+        
+    def setOvertime(self, overtime):
         if overtime<0:
             raise ValueError("Overtime cannot be -ve")
         else:
             self.overtime = overtime
-
     def showTotalSalary(self):
         return self.salary + self.overtime
 
@@ -54,39 +64,15 @@ class Clerk(Employee):
 class Salesman(Employee):
     def __init__(self,empname,salary,commission):
         super().__init__(empname, salary)
+        self.setCommission(commission)
+        
+    def setCommission(self, commission):
         if commission<0:
             raise ValueError("commission cannot be -ve")
         else:
             self.commission = commission
-
+        
     def showTotalSalary(self):
         return self.salary + self.commission
 
-#show polymorphic behavior
-def processEmpDetails(empObj):
-    print(type(empObj))
-    print(empObj.showempDetails())
-    print(empObj.showTotalSalary())
 
-clrObj = Clerk("Mahesh", 234234.545, 3455345)
-processEmpDetails(clrObj)
-slsObj = Salesman("Dinesh", 345345.656, 4564556)
-processEmpDetails(slsObj)
-
-"""
-#Create Objects of Derived classes
-mgrObj = Manager("Ganesh", 234234.545, 3455)
-print(mgrObj.showempDetails())
-print("Total Salary: ", mgrObj.showTotalSalary())
-
-clrObj = Clerk("Mahesh", 234234.545, 3455345)
-print(clrObj.showempDetails())
-print("Total Salary: ", clrObj.showTotalSalary())
-
-slsObj = Salesman("Dinesh", 234234.545, 4565)
-print(slsObj.showempDetails())
-print("Total Salary: ", slsObj.showTotalSalary())
-"""
-
-mgrObj = Manager("Ganesh", 234234.545, 3455)
-processEmpDetails(mgrObj)
