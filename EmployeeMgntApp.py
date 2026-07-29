@@ -27,6 +27,12 @@ class Employee:
     def setDepartment(self, deptobj):
         self.department = deptobj
 
+    def setAddress(self, addrobj):
+        self.Address = addrobj
+
+    def getAddress(self):
+        return self.Address.showAddressDetails()
+    
     def setSalary(self, salary):
         if salary<=0:
             raise ValueError("Incorrect Salary value")
@@ -84,5 +90,3 @@ class Salesman(Employee):
         
     def showTotalSalary(self):
         return self.salary + self.commission
-
-

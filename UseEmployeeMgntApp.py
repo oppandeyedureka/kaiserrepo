@@ -1,11 +1,14 @@
 from EmployeeMgntApp import *
 from Department import Department
+from Address import Address
 
 try:
     deptobj = Department("Python Data Science", "Pune")
     empobj = Manager("Ganesh",123123, deptobj,23424)
     print(empobj.showempDetails())
     print(empobj.getDeptDetails())
+    empobj.setAddress(Address("ABC","Mumbai","243243234"))
+    print(empobj.getAddress())
 except ValueError:
     print("Invalid details for resource creation")
 

@@ -11,7 +11,7 @@ class Department:
         if(len(deptname)<=0):
             raise ValueError("Invalid name.")
         else:
-            self.deptName = self.deptName
+            self.deptName = deptname
 
     def setDeptLoc(self, deptloc):
         if(len(deptloc)<=0):
