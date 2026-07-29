@@ -2,13 +2,35 @@ from EmployeeMgntApp import *
 from Department import Department
 from Address import Address
 
+#using nested try blocks
 try:
-    deptobj = Department("Python Data Science", "Pune")
-    empobj = Manager("Ganesh",123123, deptobj,23424)
-    print(empobj.showempDetails())
-    print(empobj.getDeptDetails())
-    empobj.setAddress(Address("ABC","Mumbai","243243234"))
-    print(empobj.getAddress())
+    dname = input("Enter department name : ")
+    dloc =  input("Enter department location : ")
+    deptobj = Department(dname, dloc)
+    try:
+        street = input("Enter street : ")
+        city =  input("Enter city : ")
+        pincode =  input("Enter pincode : ")
+        #Department details are compulsory
+        empobj = Manager("Ganesh",123123, deptobj, 23424)
+        addrobj = Address(street, city, pincode)
+        empobj.setAddress(addrobj)#optional value
+        print(empobj.getAddress())
+        print(empobj.showempDetails())
+        print(empobj.getDeptDetails())
+    except ValueError:
+        print("Manager object failed.")
+    except NameError:
+        print("Address object failed")
+
+    try:
+        clrobj = Clerk("Mahesh",2323344, deptobj, 345345)
+        print(clrobj.showempDetails())
+        print(clrobj.getDeptDetails())
+        clrobj.setAddress(addrobj)
+        print(clrobj.getAddress())
+    except ValueError:
+        print("Clerk Object failed")
 except ValueError:
     print("Invalid details for resource creation")
 

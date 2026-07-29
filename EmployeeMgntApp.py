@@ -28,7 +28,10 @@ class Employee:
         self.department = deptobj
 
     def setAddress(self, addrobj):
-        self.Address = addrobj
+        if addrobj is None:
+            raise ValueError("Invalid address")
+        else:
+            self.Address = addrobj
 
     def getAddress(self):
         return self.Address.showAddressDetails()
