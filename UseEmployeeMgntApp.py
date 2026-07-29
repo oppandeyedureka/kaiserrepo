@@ -1,5 +1,15 @@
 from EmployeeMgntApp import *
+from Department import Department
 
+try:
+    deptobj = Department("Python Data Science", "Pune")
+    empobj = Manager("Ganesh",123123, deptobj,23424)
+    print(empobj.showempDetails())
+    print(empobj.getDeptDetails())
+except ValueError:
+    print("Invalid details for resource creation")
+
+"""
 #show polymorphic behavior
 def processEmpDetails(empObj):
     print(type(empObj))
@@ -22,7 +32,7 @@ try:
 except ValueError:
     print("Provided details are incorrect.")
 
-"""
+
 #Create Objects of Derived classes
 mgrObj = Manager("Ganesh", 234234.545, 3455)
 print(mgrObj.showempDetails())
@@ -35,7 +45,7 @@ print("Total Salary: ", clrObj.showTotalSalary())
 slsObj = Salesman("Dinesh", 234234.545, 4565)
 print(slsObj.showempDetails())
 print("Total Salary: ", slsObj.showTotalSalary())
-"""
+
 
 try:
     empname = input("Enter valid emp name:")
@@ -45,3 +55,5 @@ try:
     processEmpDetails(mgrObj)
 except ValueError:
     print("Invalid value.")
+
+"""
