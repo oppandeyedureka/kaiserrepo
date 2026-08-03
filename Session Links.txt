@@ -3,3 +3,11 @@ https://www.tutorialgateway.org/python-isalnum/
 https://www.w3schools.com/python/python_ref_string.asp
 https://www.geeksforgeeks.org/python/python-string-methods/
 https://pynative.com/python-string-exercise/
+
+List Refernces
+https://www.w3schools.com/python/python_ref_list.asp
+https://www.geeksforgeeks.org/python/list-methods-python/
+https://pytutorial.com/python-list-functions-a-complete-guide/
+https://www.tutorialspoint.com/article/built-in-list-functions-and-methods-in-python
+https://www.datacamp.com/tutorial/python-list-function
+
