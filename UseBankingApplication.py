@@ -1,5 +1,6 @@
-from BankingApplication import Account, Savings, Current
-
+from BankingApplication import Account, Savings, Current, Customer
+from Address import Address
+"""
 try:
     savObj = Savings("Ganesh", 12000, 2000)
     print(savObj.showaccountdetails())
@@ -15,6 +16,17 @@ try:
     print(curObj.showaccountdetails())
 except ValueError:
     print("Invalid value")
+"""
+
+try:
+    addrobj = Address("Hinjewadi","Pune","3453453")
+    cobj = Customer("Ganesh",addrobj)
+    savobj = Savings(cobj, 50000, 5000)
+    print(savobj.showaccountdetails())
+    savobj.deposit(5000)
+    print(savobj.showaccountdetails())
+except ValueError:
+    print("Invalid input")
 
 """
 accobj1 = Account(1001, "ABC", 9000.00)

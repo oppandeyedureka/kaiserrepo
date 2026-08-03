@@ -1,16 +1,13 @@
 class Account:
     AccID =1000
-    def __init__(self, holdername, balance):
-        self.setHolderName(holdername)    
+    def __init__(self, customer, balance):
+        self.setCustomer(customer)    
         self.setBalance(balance)
         Account.AccID += 1
         self.accid = Account.AccID
 
-    def setHolderName(self, name):
-        if len(name)<=0:
-            raise ValueError("Can't have blank name.")
-        else:
-            self.holdername = name
+    def setCustomer(self, customer):
+        self.customer = customer
         
     def setBalance(self, amount):
         if amount<0:
@@ -28,12 +25,12 @@ class Account:
         pass
         
     def showaccountdetails(self):
-        return f"Account Number: {self.accid}, Account Holder: {self.holdername}, Balance: {self.balance}" 
+        return f"Account Number: {self.accid}, Account Holder: {self.customer.showCustomerDetails()}, Balance: {self.balance}" 
 
 class Savings(Account):
 
-    def __init__(self, holdername, balance, minBalance):
-        super().__init__(holdername, balance)
+    def __init__(self, customer, balance, minBalance):
+        super().__init__(customer, balance)
         self.setMinBal(minBalance)
 
     def setMinBal(self, amount):
@@ -51,8 +48,8 @@ class Savings(Account):
             self.balance -= amount
     
 class Current(Account):
-    def __init__(self, holdername, balance, overdraft):
-        super().__init__(holdername, balance)
+    def __init__(self, customer, balance, overdraft):
+        super().__init__(customer, balance)
         self.setOverdraft(overdraft)
 
     def setOverdraft(self, amount):
@@ -68,4 +65,14 @@ class Current(Account):
             raise ValueError("Going above Overdraft")
         else:
             self.balance -= amount
+
+class Customer:
+    CustIdCount =100
+    def __init__(self, customername, address):
+        self.customername = customername
+        self.customeraddress = address
+        self.customerid = self.CustIdCount+1
+
+    def showCustomerDetails(self):
+        return "Customer ID : ",self.customerid, "Customer Name : ",self.customername, "Customer Address : ",self.customeraddress.showAddressDetails() 
     
