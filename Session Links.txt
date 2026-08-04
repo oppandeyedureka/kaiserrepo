@@ -11,3 +11,10 @@ https://pytutorial.com/python-list-functions-a-complete-guide/
 https://www.tutorialspoint.com/article/built-in-list-functions-and-methods-in-python
 https://www.datacamp.com/tutorial/python-list-function
 
+Tuple references
+https://realpython.com/python-tuple/
+https://pythonguides.com/tuples/
+https://www.geeksforgeeks.org/python/tuples-in-python/
+https://www.w3schools.com/python/python_tuples.asp
+https://www.programiz.com/python-programming/tuple
+https://www.tutorialspoint.com/python/python_tuples.htm
