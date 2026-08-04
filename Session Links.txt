@@ -18,3 +18,11 @@ https://www.geeksforgeeks.org/python/tuples-in-python/
 https://www.w3schools.com/python/python_tuples.asp
 https://www.programiz.com/python-programming/tuple
 https://www.tutorialspoint.com/python/python_tuples.htm
+
+Set References
+https://docs.python.org/3/tutorial/datastructures.html#sets
+https://realpython.com/python-sets/
+https://www.tutorialgateway.org/python-set-functions/
+https://www.geeksforgeeks.org/python/python-set-methods/
+https://www.tutorialgateway.org/python-set-functions/
+
