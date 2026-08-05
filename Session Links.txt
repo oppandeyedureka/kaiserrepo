@@ -28,6 +28,14 @@ https://www.tutorialgateway.org/python-set-functions/
 
 Dictionary references
 https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+
+Population
+https://www.thoughtco.com/what-is-a-population-in-statistics-3126308
+https://www.statisticshowto.com/what-is-a-population/
+https://www.geeksforgeeks.org/maths/population-and-sample-statistics/
+
+
+
 https://realpython.com/python-dicts/
 https://www.tutorialspoint.com/python/python_dictionary_methods.htm
 https://pythonguides.com/python-dictionary-dict/
