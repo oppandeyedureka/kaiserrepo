@@ -1,7 +1,20 @@
 from EmployeeMgntApp import Manager, Clerk, Salesman
 from Department import Department
 from Address import Address
+import pickle
 
+def WriteDeptObject(dept):
+    with open("DeptDetails.dat","wb+") as file:
+        #file.write(dept)#Error- TypeError: a bytes-like object is required, not 'Department'
+        pickle.dump(dept,file)#Store Object state in File
+
+def ReadDeptObject():
+    with open("DeptDetails.dat","rb") as file:
+        deptobj = pickle.load(file)
+    print(deptobj.getDeptId())
+    for emp in deptobj.getEmployees():
+        print(emp.getEmpID())
+    
 try:
     deptobj = Department("Sales","Pune")
     addrobj = Address("ABC","Pune","24234234")
@@ -22,9 +35,16 @@ try:
 
     for emp in deptobj.getEmployees():
         print(emp.showempDetails())
-        
+
+    #Saving Dept object in file
+    #WriteDeptObject(deptobj)
+    ReadDeptObject()
 except ValueError:
     print("Invalid values in Dept")
+
+
+
+#def ReadDeptObj():
 
 #using nested try blocks
 """
