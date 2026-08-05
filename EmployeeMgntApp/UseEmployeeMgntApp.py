@@ -19,6 +19,10 @@ try:
     emps.add(empobj1)
     emps.add(empobj2)
     deptobj.setEmployees(emps)
+
+    for emp in deptobj.getEmployees():
+        print(emp.showempDetails())
+        
 except ValueError:
     print("Invalid values in Dept")
 
