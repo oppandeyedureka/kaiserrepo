@@ -28,17 +28,19 @@ https://www.tutorialgateway.org/python-set-functions/
 
 Dictionary references
 https://docs.python.org/3/tutorial/datastructures.html#dictionaries
-
-Population
-https://www.thoughtco.com/what-is-a-population-in-statistics-3126308
-https://www.statisticshowto.com/what-is-a-population/
-https://www.geeksforgeeks.org/maths/population-and-sample-statistics/
-
-
-
 https://realpython.com/python-dicts/
 https://www.tutorialspoint.com/python/python_dictionary_methods.htm
 https://pythonguides.com/python-dictionary-dict/
 https://www.w3schools.com/python/python_ref_dictionary.asp
 https://www.geeksforgeeks.org/python/python-dictionary-methods/
 
+Population
+https://www.thoughtco.com/what-is-a-population-in-statistics-3126308
+https://www.statisticshowto.com/what-is-a-population/
+https://www.geeksforgeeks.org/maths/population-and-sample-statistics/
+https://www.geeksforgeeks.org/data-science/what-is-inferential-statistics/
+
+Sampling
+https://www.geeksforgeeks.org/data-analysis/different-types-of-data-sampling-methods-and-techniques/
+https://methodologyhub.com/methods/what-is-sampling/
+https://www.statisticshowto.com/probability-and-statistics/sampling-in-statistics/
