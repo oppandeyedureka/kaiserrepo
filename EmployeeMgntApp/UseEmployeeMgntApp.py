@@ -1,8 +1,29 @@
-from EmployeeMgntApp import *
+from EmployeeMgntApp import Manager, Clerk, Salesman
 from Department import Department
 from Address import Address
 
+try:
+    deptobj = Department("Sales","Pune")
+    addrobj = Address("ABC","Pune","24234234")
+    try:
+        empobj1 = Manager("Mgr01", 35234234,deptobj,34535)
+        empobj1.setAddress(addrobj)
+    except ValueError:
+        print("Invalid values in Manager")
+    try:
+        empobj2 = Clerk("Clr01", 352342,deptobj,34500)
+        empobj2.setAddress(addrobj)
+    except ValueError:
+        print("Invalid values in Clerk")
+    emps = set()#Set of Employees 
+    emps.add(empobj1)
+    emps.add(empobj2)
+    deptobj.setEmployees(emps)
+except ValueError:
+    print("Invalid values in Dept")
+
 #using nested try blocks
+"""
 try:
     dname = input("Enter department name : ")
     dloc =  input("Enter department location : ")
@@ -34,6 +55,7 @@ try:
 except ValueError:
     print("Invalid details for resource creation")
 
+"""
 """
 #show polymorphic behavior
 def processEmpDetails(empObj):

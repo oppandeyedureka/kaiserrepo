@@ -42,9 +42,18 @@ class Employee:
         else:
             self.salary = salary
 
+    def getSalary(self):
+        return self.salary
+    
+    def getEmpID(self):
+        return self.empid
+
+    def getEmpName(self):
+        return self.empname
+    
     #display emp details
     def showempDetails(self):
-        return "Emp Id: ", self.empid, " Emp Name: ", self.empname, " Salary: ",self.salary
+        return "Emp Id: ", self.getEmpID(), " Emp Name: ", self.getEmpName(), " Salary: ",self.getSalary()
 
     #method to be defined in child class
     def showTotalSalary(self):
@@ -62,8 +71,11 @@ class Manager(Employee):
         else:
             self.perks = perks
 
+    def getPerks(self):
+        return self.perks
+    
     def showTotalSalary(self):
-        return self.salary + self.perks
+        return self.getSalary() + self.getPerks()
 
 #create Clerk as derived class
 class Clerk(Employee):
@@ -76,8 +88,12 @@ class Clerk(Employee):
             raise ValueError("Overtime cannot be -ve")
         else:
             self.overtime = overtime
+
+    def getOvertime(self):
+        return self.overtime
+    
     def showTotalSalary(self):
-        return self.salary + self.overtime
+        return self.getSalary() + self.getOvertime()
 
 #create Salesman as derived class
 class Salesman(Employee):
@@ -90,6 +106,9 @@ class Salesman(Employee):
             raise ValueError("commission cannot be -ve")
         else:
             self.commission = commission
-        
+
+    def getCommission(self):
+        return self.commission
+     
     def showTotalSalary(self):
-        return self.salary + self.commission
+        return self.getSalary() + self.getCommission()

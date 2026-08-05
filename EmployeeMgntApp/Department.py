@@ -7,6 +7,12 @@ class Department:
         Department.deptcount += 1
         self.deptid = Department.deptcount
 
+    def setEmployees(self, employees):
+        self.Employees = employees
+
+    def getEmployees(self):
+        return self.Employees
+
     def setDeptName(self, deptname):
         if(len(deptname)<=0):
             raise ValueError("Invalid name.")
@@ -19,6 +25,15 @@ class Department:
         else:
             self.deptLocation = deptloc
                 
+    def getDeptName(self):
+        return self.deptName
+
+    def getDeptLoc(self):
+        return self.deptLocation
+
+    def getDeptId(self):
+        return self.deptid
+    
     def showDeptDetails(self):
-        return "Dept Id : ", self.deptid, " Dept Name : ", self.deptName, " Dept location:", self.deptLocation
+        return "Dept Id : ", self.getDeptId(), " Dept Name : ", self.getDeptName(), " Dept location:", self.getDeptLoc()
     
