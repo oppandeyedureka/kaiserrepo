@@ -49,3 +49,11 @@ Confidence Intervals
 https://www.geeksforgeeks.org/data-science/confidence-interval/
 https://www.simplypsychology.org/confidence-interval.html
 https://www.statology.org/understanding-confidence-intervals-what-they-are-and-how-to-use-them/
+
+Numpy resources
+https://www.geeksforgeeks.org/numpy/python-numpy/
+https://www.geeksforgeeks.org/python/numpy-array-in-python/
+https://www.w3schools.com/python/numpy/numpy_getting_started.asp
+https://numpy.org/doc/stable/user/quickstart.html
+https://www.programiz.com/python-programming/numpy/ndarray-creation
+
