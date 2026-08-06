@@ -15,5 +15,7 @@ class Address:
         else:
             self.pincode = pincode
 
+        print("Address Object created.")
+
     def showAddressDetails(self):
         return "Street : ", self.street, " City : ", self.city, " pincode : ", self.pincode

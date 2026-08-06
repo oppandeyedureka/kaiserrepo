@@ -1,5 +1,29 @@
+import os
+import pickle
+
+
+def load_dept_data():
+    file_path = os.path.join(os.path.dirname(__file__), "EmpMgntDetails.dat")
+    try:
+        with open(file_path, "rb") as file:
+            return pickle.load(file)
+    except (EOFError, FileNotFoundError, AttributeError, ImportError, ModuleNotFoundError, pickle.UnpicklingError):
+        print("Error loading department data. Starting with default values.")
+        return None
+
+
 class Department:
     deptcount = 100
+    try:
+        depts = load_dept_data()
+        if not depts:
+            deptcount = 100
+        else:
+            existing_ids = [dept.getDeptId() for dept in depts if hasattr(dept, "getDeptId")]
+            deptcount = max([100] + existing_ids)
+            print("Dept Count initialized to:", deptcount)
+    except Exception:
+        deptcount = 100
 
     def __init__(self, deptname, loc):
         self.setDeptName(deptname)
@@ -33,7 +57,9 @@ class Department:
 
     def getDeptId(self):
         return self.deptid
+
+    def getDeptCount(self):
+        return Department.deptcount
     
     def showDeptDetails(self):
         return "Dept Id : ", self.getDeptId(), " Dept Name : ", self.getDeptName(), " Dept location:", self.getDeptLoc()
-    

@@ -1,20 +1,37 @@
-from EmployeeMgntApp import Manager, Clerk, Salesman
-from Department import Department
-from Address import Address
+import os
 import pickle
 
+from EmployeeMgntApp import Manager, Clerk, Salesman, load_emp_data
+from Department import Department
+from Address import Address
+
+def get_data_file(filename):
+    return os.path.join(os.path.dirname(__file__), filename)
+
+def LoadExistingDepts():
+    depts = load_emp_data()
+    return depts if depts else set()
+
 def WriteDeptObject(dept):
-    with open("DeptDetails.dat","wb+") as file:
+    with open(get_data_file("DeptDetails.dat"), "ab") as file:
         #file.write(dept)#Error- TypeError: a bytes-like object is required, not 'Department'
         pickle.dump(dept,file)#Store Object state in File
 
 def ReadDeptObject():
-    with open("DeptDetails.dat","rb") as file:
+    with open(get_data_file("DeptDetails.dat"), "rb") as file:
         deptobj = pickle.load(file)
-    print(deptobj.getDeptId())
-    for emp in deptobj.getEmployees():
-        print(emp.getEmpID())
-    
+    return deptobj
+
+def SaveDepts(depts):
+    with open(get_data_file("EmpMgntDetails.dat"), "wb+") as file:
+        #file.write(dept)#Error- TypeError: a bytes-like object is required, not 'Department'
+        pickle.dump(depts,file)#Store Object state in File
+
+def ReadDepts():
+    with open(get_data_file("EmpMgntDetails.dat"), "rb") as file:
+        depts = pickle.load(file)
+    return depts
+
 try:
     deptobj = Department("Sales","Pune")
     addrobj = Address("ABC","Pune","24234234")
@@ -33,98 +50,17 @@ try:
     emps.add(empobj2)
     deptobj.setEmployees(emps)
 
-    for emp in deptobj.getEmployees():
-        print(emp.showempDetails())
+    #save multiple departments
+    depts = LoadExistingDepts()
+    depts.add(deptobj)
+    SaveDepts(depts)
 
-    #Saving Dept object in file
-    #WriteDeptObject(deptobj)
-    ReadDeptObject()
+    read_depts = ReadDepts()
+    print("Read Depts from file:", len(read_depts))
+    for dept in read_depts:
+        print("Dept ID:", dept.getDeptId())
+        employees = dept.getEmployees()
+        if employees:
+            print("Employees in Dept:", len(employees))
 except ValueError:
     print("Invalid values in Dept")
-
-
-
-#def ReadDeptObj():
-
-#using nested try blocks
-"""
-try:
-    dname = input("Enter department name : ")
-    dloc =  input("Enter department location : ")
-    deptobj = Department(dname, dloc)
-    try:
-        street = input("Enter street : ")
-        city =  input("Enter city : ")
-        pincode =  input("Enter pincode : ")
-        #Department details are compulsory
-        empobj = Manager("Ganesh",123123, deptobj, 23424)
-        addrobj = Address(street, city, pincode)
-        empobj.setAddress(addrobj)#optional value
-        print(empobj.getAddress())
-        print(empobj.showempDetails())
-        print(empobj.getDeptDetails())
-    except ValueError:
-        print("Manager object failed.")
-    except NameError:
-        print("Address object failed")
-
-    try:
-        clrobj = Clerk("Mahesh",2323344, deptobj, 345345)
-        print(clrobj.showempDetails())
-        print(clrobj.getDeptDetails())
-        clrobj.setAddress(addrobj)
-        print(clrobj.getAddress())
-    except ValueError:
-        print("Clerk Object failed")
-except ValueError:
-    print("Invalid details for resource creation")
-
-"""
-"""
-#show polymorphic behavior
-def processEmpDetails(empObj):
-    print(type(empObj))
-    print(empObj.showempDetails())
-    print(empObj.showTotalSalary())
-
-try:
-    clrObj = Clerk("Mahesh", 234234.545, 3455345)
-    processEmpDetails(clrObj)
-except ValueError:
-    print("Provided details are incorrect.")
-
-try:
-    slsObj = Salesman("Dinesh", 345345.656, 4564556)
-    slsObj.setCommission(12000)
-    slsObj.showTotalSalary()
-    slsObj.setEmpName("Dinesh Rathore")
-    slsObj.setSalary(1200000)
-    processEmpDetails(slsObj)
-except ValueError:
-    print("Provided details are incorrect.")
-
-
-#Create Objects of Derived classes
-mgrObj = Manager("Ganesh", 234234.545, 3455)
-print(mgrObj.showempDetails())
-print("Total Salary: ", mgrObj.showTotalSalary())
-
-clrObj = Clerk("Mahesh", 234234.545, 3455345)
-print(clrObj.showempDetails())
-print("Total Salary: ", clrObj.showTotalSalary())
-
-slsObj = Salesman("Dinesh", 234234.545, 4565)
-print(slsObj.showempDetails())
-print("Total Salary: ", slsObj.showTotalSalary())
-
-
-try:
-    empname = input("Enter valid emp name:")
-    empsalary = float(input("Enter valid emp salary:"))
-    mgrperks = float(input("Enter valid perks for manager:"))
-    mgrObj = Manager(empname, empsalary, mgrperks)
-    processEmpDetails(mgrObj)
-except ValueError:
-    print("Invalid value.")
-
-"""

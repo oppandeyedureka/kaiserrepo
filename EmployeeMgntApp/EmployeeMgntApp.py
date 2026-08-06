@@ -1,10 +1,37 @@
+import os
+import pickle
+
+
+def load_emp_data():
+    file_path = os.path.join(os.path.dirname(__file__), "EmpMgntDetails.dat")
+    try:
+        with open(file_path, "rb") as file:
+            return pickle.load(file)
+    except (EOFError, FileNotFoundError, AttributeError, ImportError, ModuleNotFoundError, pickle.UnpicklingError):
+        return None
+
+
 #create employee class with 3 data members and 2 methods
 class Employee:
     #Generic ID Generator
     IDGenerator = 1000
+    try:
+        depts = load_emp_data()
+        if not depts:
+            IDGenerator = 1000
+        else:
+            existing_ids = []
+            for dept in depts:
+                if hasattr(dept, "getEmployees"):
+                    employees = dept.getEmployees()
+                    if employees:
+                        existing_ids.extend([emp.getEmpID() for emp in employees if hasattr(emp, "getEmpID")])
+                        IDGenerator = max([1000] + existing_ids)
+    except Exception:
+        IDGenerator = 1000
     #constructor
     def __init__(self,empname,salary, deptobj):
-        Employee.IDGenerator = Employee.IDGenerator + 1
+        IDGenerator = Employee.IDGenerator + 1
         self.empid = Employee.IDGenerator
         self.setEmpName(empname)
         self.setSalary(salary)
@@ -100,6 +127,7 @@ class Salesman(Employee):
     def __init__(self,empname,salary,deptobj,commission):
         super().__init__(empname,salary,deptobj)
         self.setCommission(commission)
+        #print("Sls Object created.")
         
     def setCommission(self, commission):
         if commission<0:
