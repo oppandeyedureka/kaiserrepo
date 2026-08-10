@@ -1,13 +1,12 @@
 import os
 import pickle
 
-
 def load_emp_data():
-    file_path = os.path.join(os.path.dirname(__file__), "EmpMgntDetails.dat")
     try:
-        with open(file_path, "rb") as file:
+        with open("EmpMgntDetails.dat", "rb") as file:
             return pickle.load(file)
     except (EOFError, FileNotFoundError, AttributeError, ImportError, ModuleNotFoundError, pickle.UnpicklingError):
+        print("File loading error in Emp")
         return None
 
 
@@ -20,13 +19,10 @@ class Employee:
         if not depts:
             IDGenerator = 1000
         else:
-            existing_ids = []
+            existing_ids = 0
             for dept in depts:
-                if hasattr(dept, "getEmployees"):
-                    employees = dept.getEmployees()
-                    if employees:
-                        existing_ids.extend([emp.getEmpID() for emp in employees if hasattr(emp, "getEmpID")])
-                        IDGenerator = max([1000] + existing_ids)
+                existing_ids += dept.getEmployees()
+                IDGenerator = max([1000] + existing_ids)
     except Exception:
         IDGenerator = 1000
     #constructor
