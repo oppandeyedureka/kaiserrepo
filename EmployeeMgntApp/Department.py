@@ -1,28 +1,35 @@
+import importlib
 import os
 import pickle
+
+def get_data_file(filename):
+    return os.path.join(os.path.dirname(__file__), filename)
+
+
+class DepartmentUnpickler(pickle.Unpickler):
+    def find_class(self, module, name):
+        if module == "Department" and name == "Department":
+            return Department
+        if module == "Address" and name == "Address":
+            return importlib.import_module("EmployeeMgntApp.Address").Address
+        if module == "EmployeeMgntApp" and name in {"Employee", "Manager", "Clerk", "Salesman"}:
+            return importlib.import_module("EmployeeMgntApp.Employees").__dict__[name]
+        if module in {"EmployeeMgntApp.EmployeeMgntApp", "EmployeeMgntApp.Employees"} and name in {"Employee", "Manager", "Clerk", "Salesman"}:
+            return importlib.import_module("EmployeeMgntApp.Employees").__dict__[name]
+        return super().find_class(module, name)
 
 
 def load_dept_data():
     try:
-        with open("EmpMgntDetails.dat", "rb") as file:
-            return pickle.load(file)
-    except (EOFError, FileNotFoundError, AttributeError, ImportError, ModuleNotFoundError, pickle.UnpicklingError):
-        print("Error loading department data. Starting with default values.")
+        with open(get_data_file("EmpMgntDetails.dat"), "rb") as file:
+            return DepartmentUnpickler(file).load()
+    except (EOFError, FileNotFoundError, AttributeError, ImportError, ModuleNotFoundError, pickle.UnpicklingError) as err:
+        print("Error loading department data. Starting with default values.", err)
         return None
-
 
 class Department:
     deptcount = 100
-    try:
-        depts = load_dept_data()
-        if not depts:
-            deptcount = 100
-        else:
-            existing_ids = len(depts)
-            deptcount = existing_ids + 100
-            print("Dept Count initialized to:", deptcount)
-    except Exception:
-        deptcount = 100
+    depts = None
 
     def __init__(self, deptname, loc):
         self.setDeptName(deptname)
@@ -62,3 +69,13 @@ class Department:
     
     def showDeptDetails(self):
         return "Dept Id : ", self.getDeptId(), " Dept Name : ", self.getDeptName(), " Dept location:", self.getDeptLoc()
+
+
+# initialize class-wide department data after class definition
+Department.depts = load_dept_data()
+if not Department.depts:
+    Department.deptcount = 100
+else:
+    existing_ids = len(Department.depts)
+    Department.deptcount = existing_ids + 100
+    print("Dept Count initialized to:", Department.deptcount)

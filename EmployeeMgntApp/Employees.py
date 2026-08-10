@@ -1,12 +1,28 @@
+import importlib
 import os
 import pickle
 
+def get_data_file(filename):
+    return os.path.join(os.path.dirname(__file__), filename)
+
+
+class EmployeeUnpickler(pickle.Unpickler):
+    def find_class(self, module, name):
+        if module in {"EmployeeMgntApp.Employees", "EmployeeMgntApp", "EmployeeMgntApp.EmployeeMgntApp"} and name in {"Employee", "Manager", "Clerk", "Salesman"}:
+            return getattr(importlib.import_module("EmployeeMgntApp.Employees"), name)
+        if module in {"Department", "EmployeeMgntApp.Department"} and name == "Department":
+            return importlib.import_module("EmployeeMgntApp.Department").Department
+        if module in {"Address", "EmployeeMgntApp.Address"} and name == "Address":
+            return importlib.import_module("EmployeeMgntApp.Address").Address
+        return super().find_class(module, name)
+
+
 def load_emp_data():
     try:
-        with open("EmpMgntDetails.dat", "rb") as file:
-            return pickle.load(file)
-    except (EOFError, FileNotFoundError, AttributeError, ImportError, ModuleNotFoundError, pickle.UnpicklingError):
-        print("File loading error in Emp")
+        with open(get_data_file("EmpMgntDetails.dat"), "rb") as file:
+            return EmployeeUnpickler(file).load()
+    except (EOFError, FileNotFoundError, AttributeError, ImportError, ModuleNotFoundError, pickle.UnpicklingError) as err:
+        print("File loading error in Emp", err)
         return None
 
 
@@ -14,20 +30,9 @@ def load_emp_data():
 class Employee:
     #Generic ID Generator
     IDGenerator = 1000
-    try:
-        depts = load_emp_data()
-        if not depts:
-            IDGenerator = 1000
-        else:
-            existing_ids = 0
-            for dept in depts:
-                existing_ids += dept.getEmployees()
-                IDGenerator = max([1000] + existing_ids)
-    except Exception:
-        IDGenerator = 1000
-    #constructor
+   #constructor
     def __init__(self,empname,salary, deptobj):
-        IDGenerator = Employee.IDGenerator + 1
+        Employee.IDGenerator = Employee.IDGenerator + 1
         self.empid = Employee.IDGenerator
         self.setEmpName(empname)
         self.setSalary(salary)
@@ -35,6 +40,7 @@ class Employee:
         #Add association of Department with Employee
         #self.department = deptobj
         self.setDepartment(deptobj)
+        
 
     def getDeptDetails(self):
         return self.department.showDeptDetails()
@@ -81,6 +87,7 @@ class Employee:
     #method to be defined in child class
     def showTotalSalary(self):
         pass
+
 
 #create manager as derived class
 class Manager(Employee):
@@ -136,3 +143,15 @@ class Salesman(Employee):
      
     def showTotalSalary(self):
         return self.getSalary() + self.getCommission()
+
+
+depts = load_emp_data()
+if not depts:
+    Employee.IDGenerator = 1000
+else:
+    existing_ids = []
+    for dept in depts:
+        employees = dept.getEmployees()
+        if employees:
+            existing_ids.extend(emp.getEmpID() for emp in employees)
+    Employee.IDGenerator = max([1000] + existing_ids)

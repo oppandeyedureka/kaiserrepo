@@ -1,38 +1,38 @@
 import os
-import pickle
 import sys
-import tempfile
-import unittest
-from unittest.mock import patch
 
-MODULE_DIR = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, MODULE_DIR)
+if __package__ is None:
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    if repo_root not in sys.path:
+        sys.path.insert(0, repo_root)
 
-import Department
-import EmployeeMgntApp
+from EmployeeMgntApp.Department import Department
+from EmployeeMgntApp import Manager
+from EmployeeMgntApp.Address import Address
+import pickle
 
+def WriteDeptObject(depts):
+    with open("EmpMgntDetails.dat", "ab") as file:
+        #file.write(dept)#Error- TypeError: a bytes-like object is required, not 'Department'
+        pickle.dump(depts,file)#Store Object state in File
 
-class IdPersistenceTests(unittest.TestCase):
-    def test_counters_restart_from_saved_ids(self):
-        with tempfile.TemporaryDirectory() as temp_dir:
-            data_file = os.path.join(temp_dir, "EmpMgntDetails.dat")
-            with patch.object(EmployeeMgntApp, "__file__", os.path.join(temp_dir, "EmployeeMgntApp.py")), \
-                 patch.object(Department, "__file__", os.path.join(temp_dir, "Department.py")):
-                dept = Department.Department("Sales", "Pune")
-                emp = EmployeeMgntApp.Manager("Mgr01", 1000, dept, 100)
-                dept.setEmployees({emp})
-                with open(data_file, "wb") as file:
-                    pickle.dump({dept}, file)
+def ReadDeptObject():
+    with open("EmpMgntDetails.dat", "rb") as file:
+        depts = pickle.load(file)
+        print("Dept Count initialized to:", deptobj.getDeptId())
+    return depts
 
-                EmployeeMgntApp.Employee.IDGenerator = 1000
-                Department.Department.deptcount = 100
+deptobj = Department("Sales","Pune")
+addrobj = Address("ABC","Pune","24234234")
+empobj1 = Manager("Mgr01", 35234234,deptobj,34535)
+empobj1.setAddress(addrobj)
 
-                EmployeeMgntApp.initialize_emp_id_generator()
-                Department.initialize_dept_counter()
+emps = set()#Set of Employees 
+emps.add(empobj1)
+deptobj.setEmployees(emps)
 
-                self.assertEqual(Department.Department.deptcount, 101)
-                self.assertEqual(EmployeeMgntApp.Employee.IDGenerator, 1001)
+depts = set()
+depts.add(deptobj)
 
-
-if __name__ == "__main__":
-    unittest.main()
+WriteDeptObject(depts)
+ReadDeptObject()

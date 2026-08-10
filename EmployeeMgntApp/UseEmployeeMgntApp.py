@@ -1,9 +1,15 @@
 import os
 import pickle
+import sys
+
+if __package__ is None:
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    if repo_root not in sys.path:
+        sys.path.insert(0, repo_root)
 
 from EmployeeMgntApp import Manager, Clerk, Salesman, load_emp_data
-from Department import Department
-from Address import Address
+from EmployeeMgntApp.Department import Department
+from EmployeeMgntApp.Address import Address
 
 def get_data_file(filename):
     return os.path.join(os.path.dirname(__file__), filename)
@@ -62,5 +68,7 @@ try:
         employees = dept.getEmployees()
         if employees:
             print("Employees in Dept:", len(employees))
+            for emp in employees:
+                print("Emp ID:", emp.empid, "Emp Name:", emp.empname, "Salary:", emp.salary)
 except ValueError:
     print("Invalid values in Dept")
