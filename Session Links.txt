@@ -57,3 +57,11 @@ https://www.w3schools.com/python/numpy/numpy_getting_started.asp
 https://numpy.org/doc/stable/user/quickstart.html
 https://www.programiz.com/python-programming/numpy/ndarray-creation
 
+Panda Series Links
+https://www.tutorialspoint.com/python_pandas/python_pandas_series.htm
+https://ryanandmattdatascience.com/pandas-series/
+https://www.geeksforgeeks.org/pandas/python-pandas-series/
+https://pythonexamples.org/pandas-series/
+https://www.programiz.com/python-programming/pandas/series
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.html
+
