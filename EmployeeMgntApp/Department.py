@@ -5,7 +5,6 @@ import pickle
 def get_data_file(filename):
     return os.path.join(os.path.dirname(__file__), filename)
 
-
 class DepartmentUnpickler(pickle.Unpickler):
     def find_class(self, module, name):
         if module == "Department" and name == "Department":
@@ -17,7 +16,6 @@ class DepartmentUnpickler(pickle.Unpickler):
         if module in {"EmployeeMgntApp.EmployeeMgntApp", "EmployeeMgntApp.Employees"} and name in {"Employee", "Manager", "Clerk", "Salesman"}:
             return importlib.import_module("EmployeeMgntApp.Employees").__dict__[name]
         return super().find_class(module, name)
-
 
 def load_dept_data():
     try:
@@ -69,7 +67,6 @@ class Department:
     
     def showDeptDetails(self):
         return "Dept Id : ", self.getDeptId(), " Dept Name : ", self.getDeptName(), " Dept location:", self.getDeptLoc()
-
 
 # initialize class-wide department data after class definition
 Department.depts = load_dept_data()

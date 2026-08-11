@@ -18,16 +18,6 @@ def LoadExistingDepts():
     depts = load_emp_data()
     return depts if depts else set()
 
-def WriteDeptObject(dept):
-    with open(get_data_file("DeptDetails.dat"), "ab") as file:
-        #file.write(dept)#Error- TypeError: a bytes-like object is required, not 'Department'
-        pickle.dump(dept,file)#Store Object state in File
-
-def ReadDeptObject():
-    with open(get_data_file("DeptDetails.dat"), "rb") as file:
-        deptobj = pickle.load(file)
-    return deptobj
-
 def SaveDepts(depts):
     with open(get_data_file("EmpMgntDetails.dat"), "wb+") as file:
         #file.write(dept)#Error- TypeError: a bytes-like object is required, not 'Department'

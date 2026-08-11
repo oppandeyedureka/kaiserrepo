@@ -5,7 +5,6 @@ import pickle
 def get_data_file(filename):
     return os.path.join(os.path.dirname(__file__), filename)
 
-
 class EmployeeUnpickler(pickle.Unpickler):
     def find_class(self, module, name):
         if module in {"EmployeeMgntApp.Employees", "EmployeeMgntApp", "EmployeeMgntApp.EmployeeMgntApp"} and name in {"Employee", "Manager", "Clerk", "Salesman"}:
@@ -16,7 +15,6 @@ class EmployeeUnpickler(pickle.Unpickler):
             return importlib.import_module("EmployeeMgntApp.Address").Address
         return super().find_class(module, name)
 
-
 def load_emp_data():
     try:
         with open(get_data_file("EmpMgntDetails.dat"), "rb") as file:
@@ -24,7 +22,6 @@ def load_emp_data():
     except (EOFError, FileNotFoundError, AttributeError, ImportError, ModuleNotFoundError, pickle.UnpicklingError) as err:
         print("File loading error in Emp", err)
         return None
-
 
 #create employee class with 3 data members and 2 methods
 class Employee:
@@ -87,63 +84,6 @@ class Employee:
     #method to be defined in child class
     def showTotalSalary(self):
         pass
-
-
-#create manager as derived class
-class Manager(Employee):
-    def __init__(self,empname,salary,deptobj,perks):
-        super().__init__(empname, salary, deptobj)
-        self.setPerks(perks)
-
-    def setPerks(self, perks):
-        if perks<0:
-            raise ValueError("Perks cannot be -ve")
-        else:
-            self.perks = perks
-
-    def getPerks(self):
-        return self.perks
-    
-    def showTotalSalary(self):
-        return self.getSalary() + self.getPerks()
-
-#create Clerk as derived class
-class Clerk(Employee):
-    def __init__(self,empname,salary,deptobj,overtime):
-        super().__init__(empname,salary,deptobj)
-        self.setOvertime(overtime)
-        
-    def setOvertime(self, overtime):
-        if overtime<0:
-            raise ValueError("Overtime cannot be -ve")
-        else:
-            self.overtime = overtime
-
-    def getOvertime(self):
-        return self.overtime
-    
-    def showTotalSalary(self):
-        return self.getSalary() + self.getOvertime()
-
-#create Salesman as derived class
-class Salesman(Employee):
-    def __init__(self,empname,salary,deptobj,commission):
-        super().__init__(empname,salary,deptobj)
-        self.setCommission(commission)
-        #print("Sls Object created.")
-        
-    def setCommission(self, commission):
-        if commission<0:
-            raise ValueError("commission cannot be -ve")
-        else:
-            self.commission = commission
-
-    def getCommission(self):
-        return self.commission
-     
-    def showTotalSalary(self):
-        return self.getSalary() + self.getCommission()
-
 
 depts = load_emp_data()
 if not depts:
