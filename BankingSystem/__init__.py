@@ -4,4 +4,4 @@ from .Current import Current
 from .Savings import Savings
 from .Customer import Customer
 
-__all__ = ["Address","Customer","Account","Current","Savings",]
+__all__ = ["Address","Customer","Account","Current","Savings"]

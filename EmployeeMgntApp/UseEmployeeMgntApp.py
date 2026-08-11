@@ -24,7 +24,7 @@ def SaveDepts(depts):
         pickle.dump(depts,file)#Store Object state in File
 
 def ReadDepts():
-    with open(get_data_file("EmpMgntDetails.dat"), "rb") as file:
+    with open(get_data_file("EmpMgntDetails.dat"), "rb+") as file:
         depts = pickle.load(file)
     return depts
 

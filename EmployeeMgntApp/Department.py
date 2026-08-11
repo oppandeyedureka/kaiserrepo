@@ -19,7 +19,7 @@ class DepartmentUnpickler(pickle.Unpickler):
 
 def load_dept_data():
     try:
-        with open(get_data_file("EmpMgntDetails.dat"), "rb") as file:
+        with open(get_data_file("EmpMgntDetails.dat"), "rb+") as file:
             return DepartmentUnpickler(file).load()
     except (EOFError, FileNotFoundError, AttributeError, ImportError, ModuleNotFoundError, pickle.UnpicklingError) as err:
         print("Error loading department data. Starting with default values.", err)
