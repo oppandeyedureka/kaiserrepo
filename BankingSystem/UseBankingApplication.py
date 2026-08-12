@@ -1,18 +1,12 @@
 import os
 import sys
 
-# Support running as a script or as a package module.
 if __package__ is None:
-    # running as a script: ensure parent dir is on sys.path so package imports work
-    sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-    from BankingSystem import Account, Savings, Current, Customer, Address
-else:
-    # running as a module: use relative imports
-    from .Account import Account
-    from .Savings import Savings
-    from .Current import Current
-    from .Customer import Customer
-    from .Address import Address
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    if repo_root not in sys.path:
+        sys.path.insert(0, repo_root)
+
+from BankingSystem import Account, Savings, Current, Customer, Address
 
 try:
     addrObj = Address("Hingewadi","Pune","42342342")
