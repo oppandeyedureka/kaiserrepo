@@ -1,4 +1,4 @@
-from BankingSystem import Account
+from .Account import Account
 
 class Current(Account):
     """Represents a current account with an overdraft facility.

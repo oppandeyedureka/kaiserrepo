@@ -1,4 +1,4 @@
-from BankingSystem import Account
+from .Account import Account
 
 class Savings(Account):
     """Represents a savings account with a minimum balance requirement.
