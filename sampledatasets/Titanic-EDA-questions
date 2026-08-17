@@ -1,0 +1,35 @@
+
+1. Survival Bias Across Socioeconomic Status
+How did passenger class (Pclass) influence survival, and does the relationship remain significant after controlling for gender and age?
+
+2. Missing Age Investigation
+Are passengers with missing Age values systematically different from those with known ages in terms of class, fare, embarkation port, and survival?
+
+3. Family Size vs Survival
+Does traveling alone improve survival chances compared to traveling with small or large families?
+
+4. Fare Outlier Analysis
+Are extremely high-ticket fares associated with higher survival rates, or are they merely a reflection of passenger class?
+
+5. Embarkation Port Influence
+How does embarkation location (Embarked) impact survival, and is the effect explained by passenger class composition at each port?
+
+6. Cabin Information Value
+Does having cabin information recorded correlate with socioeconomic status and survival probability?
+
+7. Children's Advantage Analysis
+Did children receive a survival advantage, and at what age threshold does survival probability significantly decrease?
+
+8. Gender-Class Interaction
+Which had a stronger effect on survival: gender or socioeconomic status?
+
+9. Ticket Sharing Network Analysis
+Do passengers sharing the same ticket number exhibit similar survival outcomes, suggesting family/group travel effects?
+
+10. Build a "Survival Archetype" analysis:
+Identify the top 5 passenger profiles with the highest survival rate and the bottom 5 profiles with the lowest survival rate using combinations of:
+	• Class
+	• Gender
+	• Age Group
+	• Family Size
+	• Embarkation Port
