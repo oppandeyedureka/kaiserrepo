@@ -72,3 +72,13 @@ https://www.geeksforgeeks.org/pandas/python-pandas-dataframe/
 https://pandas.pydata.org/pandas-docs/stable/reference/frame.html
 https://www.w3schools.com/python/pandas/pandas_ref_dataframe.asp
 https://www.programiz.com/python-programming/pandas/dataframe-manipulation
+
+EDA and Correlation
+https://towardsdatascience.com/a-data-scientists-essential-guide-to-exploratory-data-analysis-25637eee0cf6/
+https://www.shaip.com/blog/healthcare-datasets-for-machine-learning-projects/
+https://onlinestatscalculator.com/blog/correlation-analysis-guide
+https://www.geeksforgeeks.org/data-science/correlation-meaning-significance-types-and-degree-of-correlation/
+https://www.geeksforgeeks.org/data-analysis/what-is-correlation-analysis/
+https://methodologyhub.com/methods/statistics/correlation-analysis/
+https://www.statisticshowto.com/probability-and-statistics/correlation-analysis/
+https://sociology.institute/research-methodologies-methods/exploring-correlation-types-methods/
