@@ -1,0 +1,99 @@
+Q1. Data Integrity Assessment
+	• Identify inconsistent capitalization, prefixes (Dr., MD, DDS), and formatting issues.
+	• Quantify cardinality before and after standardization. Use fields Patient Name, Doctor, and Hospital.
+	• Determine which variables should be excluded from predictive modelling and why.
+
+Q2. Missing Data & Data Consistency Audit
+	• Evaluate missing values, duplicates, invalid dates, and impossible values.
+	• Assess whether missingness is MCAR, MAR, or MNAR.
+	• Estimate the impact of data quality issues on downstream analyses.
+
+Q3. Billing Amount Distribution Analysis
+Determine whether Billing Amount follows:
+	• Normal
+	• Log-normal
+	• Gamma
+	• Multimodal distribution
+
+Q4. Age Distribution Deep Dive
+	• Detect age clustering and age-heaping patterns.
+	• Identify demographic biases.
+	• Compare distribution across age bands.
+
+Q5. Rare Category Detection
+Task: Identify categories occurring below:
+	• 1%
+	• 2%
+	• 5%
+for:
+	• Blood Type
+	• Medical Condition
+	• Insurance Provider
+	• Medication
+	• Admission Type
+Recommend grouping strategies for EDA and modelling.
+
+Q6. Billing Amount Anomaly Investigation
+Which method provides the most business-relevant anomalies?
+
+Q7. Multivariate Outlier Detection
+Using:
+	• Age
+	• Billing Amount
+	• Length of Stay
+Highlight records that appear normal individually but anomalous collectively.
+
+Q8. Doctor/Hospital Cost Outliers
+Determine whether certain doctors or hospitals generate abnormally high billing amounts.
+Investigate:
+	• Mean vs Median differences
+	• Cost concentration
+	• Statistical significance of deviations
+
+Q9. Medical Condition vs Billing Amount
+	• Rank medical conditions by median billing cost.
+	• Test significance using ANOVA and Kruskal-Wallis.
+	• Compute effect size.
+Which condition contributes most to healthcare expenditure?
+
+Q10. Insurance Provider vs Billing Amount
+Evaluate whether insurance providers influence costs.
+Analyse:
+	• Median costs
+	• Variability
+	• Outlier prevalence
+	• Practical significance of differences
+
+Q11. Admission Type vs Length of Stay
+Calculate:
+LOS = Discharge Date − Admission Date
+	• Compare LOS for Emergency, Urgent, and Elective admissions.
+	• Control for Medical Condition.
+	• Determine which admission type drives resource utilization.
+
+Q12. Medication vs Test Results
+Assess associations between medication and test outcomes.
+Identify strongest medication-result relationships.
+
+Q13. Numerical Correlation Framework
+Analyse correlations among:
+	• Age
+	• Billing Amount
+	• Length of Stay
+	• Room Number
+Identify linear vs monotonic relationships and potential spurious correlations.
+
+Q14. Age-Billing Relationship Modelling
+Determine whether healthcare costs increase with age.
+Is the relationship linear, nonlinear, or segmented?
+
+Q15. Executive Insights & Storytelling Challenge
+Prepare an executive-level EDA report answering:
+	1. What are the top 5 business insights?
+	2. Which variables most influence Billing Amount?
+	3. What data quality issues require remediation?
+	4. Which patient segments incur the highest costs?
+	5. What anomalies warrant investigation?
+	6. What actions would reduce healthcare expenditure?
+
+Develop a complete patient-risk-cost profile by combining Medical Condition, Admission Type, Insurance Provider, Length of Stay, Medication, and Test Results. Which combinations create the highest financial and clinical risk?
