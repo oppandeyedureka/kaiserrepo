@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="OIZQUREt8sNQZOzNE7f_">
+    <mxGraphModel dx="1329" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-1" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="Employee Mgnt. system&lt;div&gt;Banking Application&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="410" x="360" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User/s" vertex="1">
+          <mxGeometry height="60" width="30" x="220" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-3" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=55;entryPerimeter=0;" target="4UajZ7ZmpRFYy8Q49LzK-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="540" as="sourcePoint" />
+            <mxPoint x="290" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-5" parent="1" style="shape=card;whiteSpace=wrap;html=1;" value=".dat file&lt;div&gt;(Binary File)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="80" x="910" y="494" as="geometry" />
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-6" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=65;entryPerimeter=0;" target="4UajZ7ZmpRFYy8Q49LzK-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="770" y="555" as="sourcePoint" />
+            <mxPoint x="820" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-7" connectable="0" parent="4UajZ7ZmpRFYy8Q49LzK-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Serialization" vertex="1">
+          <mxGeometry relative="1" x="-0.018" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="569" as="sourcePoint" />
+            <mxPoint x="180" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-9" connectable="0" parent="4UajZ7ZmpRFYy8Q49LzK-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="n" vertex="1">
+          <mxGeometry relative="1" x="-0.0603" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-10" parent="1" style="shape=wedgeCallout;whiteSpace=wrap;html=1;" value="Auto incrementation issues, Deadlock issues, Overwriting file contents, file size issues, processing speed, file corruption, Data integrity issues, commit and rollback issues, Backup - Incremental and Full, Data inconsistency&lt;div&gt;...&lt;/div&gt;" vertex="1">
+          <mxGeometry height="149.2" width="190" x="950" y="250.8" as="geometry" />
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-11" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="" vertex="1">
+          <mxGeometry height="200" width="120" x="790" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-12" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Data&amp;nbsp;&lt;div&gt;Store&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="60" x="830" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-13" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;size=130;" value="SQL Engine" vertex="1">
+          <mxGeometry height="60" width="80" x="820" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="RDBMS&amp;nbsp;&lt;div&gt;Solution&lt;/div&gt;&lt;div&gt;(OLTP)&lt;/div&gt;&lt;div&gt;- Oracle, &lt;b&gt;&lt;u&gt;MySQL&lt;/u&gt;&lt;/b&gt;, SQL Server, Postgre SQL&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="800" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-17" edge="1" parent="1" source="4UajZ7ZmpRFYy8Q49LzK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4UajZ7ZmpRFYy8Q49LzK-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-18" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="OOP&lt;div&gt;- Classes&lt;/div&gt;&lt;div&gt;-- Association&lt;/div&gt;&lt;div&gt;- Objects&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="106" width="160" x="290" y="594" as="geometry" />
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-19" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" target="4UajZ7ZmpRFYy8Q49LzK-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="710" y="490" as="sourcePoint" />
+            <mxPoint x="760" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-20" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="&lt;div&gt;Database (Schema)&lt;/div&gt;Tables - Normalization&lt;div&gt;- Department - PK&lt;/div&gt;&lt;div&gt;- Employees - PK, FK&lt;/div&gt;&lt;div&gt;- FNF, SNF, TNF, BCNF&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="140" x="780" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-21" parent="1" style="shape=card;whiteSpace=wrap;html=1;" value="Data Management Issues&lt;div&gt;- Anomalies&lt;/div&gt;&lt;div&gt;-- Insert Anomaly&lt;/div&gt;&lt;div&gt;- Delete Anomaly&lt;/div&gt;&lt;div&gt;-- Update Anomaly&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="620" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-22" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/SQL_DataWarehouse.svg;" value="Datawarehouse&lt;div&gt;(OLAP)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="134.4" width="140" x="190" y="183.6" as="geometry" />
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-23" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=1.003;entryY=0.941;entryDx=0;entryDy=0;entryPerimeter=0;" target="4UajZ7ZmpRFYy8Q49LzK-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="790" y="360" as="sourcePoint" />
+            <mxPoint x="840" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4UajZ7ZmpRFYy8Q49LzK-24" connectable="0" parent="4UajZ7ZmpRFYy8Q49LzK-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;b&gt;ETL&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Extract Load and&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Transform)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0539" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
