@@ -27,3 +27,4 @@ class Savings(Account):
             raise ValueError("Min Bal error")
         else:
             self.balance -= amount
+            #update bankingdb.accounts set balance = self.balance where accid = self.accid

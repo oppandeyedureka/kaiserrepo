@@ -19,5 +19,10 @@
 -- Select deptid, sum(salary) as deptsal from companydb.employees 
 -- group by deptid order by deptsal desc;
 
-Select deptid, sum(salary) as deptsal from companydb.employees 
-group by deptid having deptsal > 131500
+-- Select deptid, sum(salary) as deptsal from companydb.employees 
+-- group by deptid having deptsal > 131500
+
+-- Select distinct city, street from companydb.employees order by city; 
+Select empname from companydb.employees where empname like 'D%';
+
+Select * from companydb.dept where deptname in ('HR','SW')

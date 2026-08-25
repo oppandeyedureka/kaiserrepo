@@ -5,13 +5,14 @@ class Account:
     Supports deposit and withdrawal operations, with validation for valid amounts.
     """
 
-    AccID =1000
+    AccID =1000 #Select max(accid) from bankingdb.accounts
     def __init__(self, customer, balance):
         """Create a new Account for a customer with an initial balance."""
         self.setCustomer(customer)    
         self.setBalance(balance)
         Account.AccID += 1
         self.accid = Account.AccID
+        #Insert into bankingdb.accounts (accid, custid, balance) values (self.accid, self.customer.customerid, self.balance)
 
     def getAccID(self):
         """Return the numeric account identifier."""
@@ -26,6 +27,10 @@ class Account:
 
     def getCustomer(self):
         """Return the customer associated with this account."""
+        #select cust.customerid, cust.customername, cust.address 
+        # from bankingdb.accounts acc inner join bankingdb.customers cust 
+        # on acc.custid = cust.customerid 
+        # where acc.accid = self.accid 
         return self.customer
     
     def setBalance(self, amount):
@@ -45,6 +50,7 @@ class Account:
             raise ValueError("Invalid Amount")
         else:
             self.balance += amount
+            #update bankingdb.accounts set balance = self.balance where accid = self.accid
            
     def withdraw(self, amount):
         """Withdraw funds from the account.

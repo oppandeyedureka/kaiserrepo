@@ -4,13 +4,14 @@ class Customer:
     Tracks a unique customer ID and validates customer details when created.
     """
 
-    CustIdCount =100
+    CustIdCount =100 #selct max(customerid) from bankingdb.customers
     def __init__(self, customername, address):
         """Initialize a Customer with a name and Address object."""
         self.setCustomerName(customername)
         self.setCustomerAddress(address)
         Customer.CustIdCount+=1
         self.customerid = Customer.CustIdCount
+        #Insert into bankingdb.customers (customerid, customername, street, city, pincode) values (self.customerid, self.customername, self.address.city, self.address.street, self.address.pincode)
 
     def setCustomerName(self, cname):
         """Validate and store the customer's name."""
@@ -18,9 +19,11 @@ class Customer:
             raise ValueError("Incorrect Name")
         else:
             self.customername = cname
+            #update bankingdb.customers set customername = self.customername where customerid = self.customerid
 
     def getCustomerName(self):
         """Return the customer's name."""
+        #select customername from bankingdb.customers where customerid = self.customerid
         return self.customername
 
     def setCustomerAddress(self, addrobj):
