@@ -23,7 +23,9 @@ class Customer:
 
     def getCustomerName(self):
         """Return the customer's name."""
-        #select customername from bankingdb.customers where customerid = self.customerid
+        #selcectquery = 'select customername from bankingdb.customers where customerid = %s'
+        #values = (self.custid)
+        #cursor.execute(selcectquery, values)
         return self.customername
 
     def setCustomerAddress(self, addrobj):
@@ -32,6 +34,8 @@ class Customer:
             raise ValueError("Invalid Address")
         else:
             self.customeraddress = addrobj
+            #update bankingdb.customers(street, city, pincode) 
+            #values(this.addrobj.street, this.addrobj.city, this. addrobj.pincode)
 
     def getCustomerAddress(self):
         """Return the customer's address."""
@@ -43,13 +47,17 @@ class Customer:
 
     def getAccounts(self):
         """Return the customer's linked accounts."""
+        #select acc.accid, acc.balance, acc.overdraft, acc.minbalance 
+        #from bankingdb.accounts as acc where acc.custid = custid
         return self.accounts
     
     def showCustomerDetails(self):
         """Return a tuple containing the customer's details and address."""
+        #Select custid, custname, street, city, pincode from bankingdb.customers where custis = self.custid
         return "Customer ID : ",self.customerid, "Customer Name : ",self.customername, "Customer Address : ",self.customeraddress.showAddressDetails() 
 
     def getTotalCustomers():
         """Return the total number of customers created."""
         totalcustomers = Customer.CustIdCount-100
+        #Select count(*) from bankingdb.customers
         return totalcustomers
