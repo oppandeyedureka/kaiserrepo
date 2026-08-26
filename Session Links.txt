@@ -82,3 +82,10 @@ https://www.geeksforgeeks.org/data-analysis/what-is-correlation-analysis/
 https://methodologyhub.com/methods/statistics/correlation-analysis/
 https://www.statisticshowto.com/probability-and-statistics/correlation-analysis/
 https://sociology.institute/research-methodologies-methods/exploring-correlation-types-methods/
+
+Windows and Ranking Functions
+https://www.geeksforgeeks.org/sql/window-functions-in-sql/
+https://www.sqltutorial.org/sql-window-functions/
+https://www.sqlnoir.com/blog/sql-window-functions
+https://dev.mysql.com/doc/refman/8.4/en/window-function-descriptions.html
+
