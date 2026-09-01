@@ -89,3 +89,8 @@ https://www.sqltutorial.org/sql-window-functions/
 https://www.sqlnoir.com/blog/sql-window-functions
 https://dev.mysql.com/doc/refman/8.4/en/window-function-descriptions.html
 
+Machine Learning Links
+https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF
+https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
+https://github.com/ageron/handson-ml3/tree/main
+https://github.com/trekhleb/homemade-machine-learning/tree/master
