@@ -70,3 +70,8 @@ FROM companydb.employees;
 
 SELECT empname, deptid, salary,
   SUM(salary) OVER () as total_salary FROM companydb.employees;
+  
+  Select empid, empname, deptid, sum(salary) from companydb.employees group by deptid;
+  
+  
+  

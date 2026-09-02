@@ -1,10 +1,10 @@
 -- SELECT * FROM companydb.dept;
 
--- Insert into companydb.employees (empid, empname, salary, deptid, emptype, perks, commission, overtime, street, city, pincode) 
--- values(1004, 'Dinesh', 131233, 102, 'Clerk', 0, 0, 123123, 'Borivli', 'Mumbai','2342434');
+Insert into companydb.employees (empid, empname, salary, deptid, emptype, perks, commission, overtime, street, city, pincode) 
+values(1008, 'Devesh', 131233, 103, 'Clerk', 0, 0, 123123, 'Wakad', 'Pune','2342434');
 
 
--- SELECT * FROM companydb.employees;
+SELECT * FROM companydb.employees;
 
 -- Select empid, empname, salary from companydb.employees;
 
@@ -25,4 +25,27 @@
 -- Select distinct city, street from companydb.employees order by city; 
 Select empname from companydb.employees where empname like 'D%';
 
-Select * from companydb.dept where deptname in ('HR','SW')
+Select * from companydb.dept where deptname in ('HR','SW');
+
+
+Select empid, empname, salary, deptid, avg(salary) 
+over(partition by deptid) as total_compsal 
+from companydb.employees;
+
+Select cust.customername, acc.accountid, acc.accountype, acc.balance, sum(acc.balance)
+over(partition by acc.customerid order by acc.accountid) as custbal
+from bankingdb.accounts as acc
+join bankingdb.customers as cust
+on acc.customerid = cust.customerid;
+
+Select customerid, accountid, accountype, balance,
+rank() over(order by balance desc) as custrank
+from bankingdb.accounts;
+
+Select customerid, accountid, accountype, balance,
+dense_rank() over(order by balance desc) as custdenserank
+from bankingdb.accounts;
+
+Select customerid, accountid, accountype, balance,
+row_number() over(order by balance desc) as rownumber
+from bankingdb.accounts;
