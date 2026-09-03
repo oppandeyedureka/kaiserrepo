@@ -94,3 +94,8 @@ https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2Gf
 https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
 https://github.com/ageron/handson-ml3/tree/main
 https://github.com/trekhleb/homemade-machine-learning/tree/master
+
+Metric Score Links
+https://www.tutorialspoint.com/machine_learning/machine_learning_performance_metrics.htm
+https://www.geeksforgeeks.org/machine-learning/metrics-for-machine-learning-model/
+
