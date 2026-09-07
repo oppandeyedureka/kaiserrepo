@@ -102,3 +102,7 @@ https://www.geeksforgeeks.org/machine-learning/metrics-for-machine-learning-mode
 Unsupervised ML
 https://cloud.google.com/discover/what-is-unsupervised-learning
 https://www.datacamp.com/blog/introduction-to-unsupervised-learning
+https://www.geeksforgeeks.org/machine-learning/unsupervised-learning/
+https://www.ibm.com/think/topics/unsupervised-learning
+https://www.tutorialspoint.com/machine_learning/machine_learning_unsupervised.htm
+
