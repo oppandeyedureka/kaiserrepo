@@ -105,4 +105,6 @@ https://www.datacamp.com/blog/introduction-to-unsupervised-learning
 https://www.geeksforgeeks.org/machine-learning/unsupervised-learning/
 https://www.ibm.com/think/topics/unsupervised-learning
 https://www.tutorialspoint.com/machine_learning/machine_learning_unsupervised.htm
+https://www.tutorialspoint.com/machine_learning/machine_learning_clustering_algorithms.htm
+https://towardsdatascience.com/unsupervised-machine-learning-clustering-analysis-d40f2b34ae7e/
 
