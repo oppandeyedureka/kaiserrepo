@@ -95,6 +95,9 @@ https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE
 https://github.com/ageron/handson-ml3/tree/main
 https://github.com/trekhleb/homemade-machine-learning/tree/master
 
+Unsupervised ML
+https://cloud.google.com/discover/what-is-unsupervised-learning
+
 Metric Score Links
 https://www.tutorialspoint.com/machine_learning/machine_learning_performance_metrics.htm
 https://www.geeksforgeeks.org/machine-learning/metrics-for-machine-learning-model/
