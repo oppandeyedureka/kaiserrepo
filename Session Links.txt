@@ -108,3 +108,7 @@ https://www.tutorialspoint.com/machine_learning/machine_learning_unsupervised.ht
 https://www.tutorialspoint.com/machine_learning/machine_learning_clustering_algorithms.htm
 https://towardsdatascience.com/unsupervised-machine-learning-clustering-analysis-d40f2b34ae7e/
 
+Cross Validation
+https://www.geeksforgeeks.org/machine-learning/cross-validation-machine-learning/
+https://www.geeksforgeeks.org/software-engineering/introduction-of-holdout-method/
+https://www.datacamp.com/tutorial/k-fold-cross-validation
