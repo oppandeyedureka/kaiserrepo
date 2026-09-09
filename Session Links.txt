@@ -112,3 +112,6 @@ Cross Validation
 https://www.geeksforgeeks.org/machine-learning/cross-validation-machine-learning/
 https://www.geeksforgeeks.org/software-engineering/introduction-of-holdout-method/
 https://www.datacamp.com/tutorial/k-fold-cross-validation
+
+TimeSeries Data
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page?ref=hackernoon.com
