@@ -1,11 +1,11 @@
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.datasets import make_blobs
 from scipy.cluster.hierarchy import dendrogram, linkage
 
 X, _ = make_blobs(n_samples=30, centers=5, cluster_std=10, random_state=42)
-
 
 def divisive_clustering(data, max_clusters=3):
     clusters = [data]
@@ -20,9 +20,7 @@ def divisive_clustering(data, max_clusters=3):
         clusters.extend([cluster1, cluster2])
     return clusters
 
-
 clusters = divisive_clustering(X, max_clusters=3)
-
 plt.figure(figsize=(12, 5))
 
 plt.subplot(1, 2, 1)

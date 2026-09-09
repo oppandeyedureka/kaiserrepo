@@ -1,17 +1,17 @@
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.cluster import AgglomerativeClustering
+from sklearn.cluster import AgglomerativeClustering, FeatureAgglomeration
 from scipy.cluster.hierarchy import dendrogram
 from sklearn.datasets import make_blobs
 
-X, _ = make_blobs(n_samples=30, centers=5, cluster_std=10, random_state=42)
+X, _ = make_blobs(n_samples=160, centers=5, cluster_std=10, random_state=42)
 
 clustering = AgglomerativeClustering(n_clusters=5)
 labels = clustering.fit_predict(X)
 
-agg = AgglomerativeClustering(distance_threshold=0, n_clusters=None)
-agg.fit(X)
-
+agg = AgglomerativeClustering(distance_threshold=0, n_clusters=None, linkage='average', metric='euclidean')
+y_means = agg.fit_predict(X)
 
 def plot_dendrogram(model, **kwargs):
     counts = np.zeros(model.children_.shape[0])
@@ -30,7 +30,6 @@ def plot_dendrogram(model, **kwargs):
         [model.children_, model.distances_, counts]).astype(float)
     dendrogram(linkage_matrix, **kwargs)
 
-
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6))
 
 ax1.scatter(X[:, 0], X[:, 1], c=labels, cmap='viridis', s=70)
@@ -46,3 +45,6 @@ plt.ylabel("Distance")
 
 plt.tight_layout()
 plt.show()
+
+print("Cluster Number:", agg.n_clusters_)
+# print("Cluster Labels:", y_means)
