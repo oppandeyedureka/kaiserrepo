@@ -1,0 +1,1031 @@
+Year,Geography,Pattype,Category,Cat_value,Dxgroup,Count,Total,Percent
+2020,Statewide,Inpatient,DX Category,All Discharges,All Other Diagnoses,2408622,3444532,0.69925958
+2020,Statewide,Inpatient,DX Category,All Discharges,Co-Occuring Disorders,242537,3444532,0.070412178
+2020,Statewide,Inpatient,DX Category,All Discharges,Mental Health Disorders,552736,3444532,0.160467663
+2020,Statewide,Inpatient,DX Category,All Discharges,Substance Use Disorders,240637,3444532,0.069860579
+2020,Statewide,Inpatient,Sex,Female,All Other Diagnoses,1358168,1874686,0.724477593
+2020,Statewide,Inpatient,Sex,Female,Co-Occuring Disorders,100688,1874686,0.053709261
+2020,Statewide,Inpatient,Sex,Female,Mental Health Disorders,346219,1874686,0.184681061
+2020,Statewide,Inpatient,Sex,Female,Substance Use Disorders,69611,1874686,0.037132085
+2020,Statewide,Inpatient,Sex,Male,All Other Diagnoses,1050255,1569574,0.66913379
+2020,Statewide,Inpatient,Sex,Male,Co-Occuring Disorders,141834,1569574,0.090364647
+2020,Statewide,Inpatient,Sex,Male,Mental Health Disorders,206479,1569574,0.131550981
+2020,Statewide,Inpatient,Sex,Male,Substance Use Disorders,171006,1569574,0.108950582
+2020,Statewide,Inpatient,Funding Source,All Other Payers,All Other Diagnoses,20620,27832,0.740873814
+2020,Statewide,Inpatient,Funding Source,All Other Payers,Co-Occuring Disorders,1403,27832,0.050409601
+2020,Statewide,Inpatient,Funding Source,All Other Payers,Mental Health Disorders,4150,27832,0.149108939
+2020,Statewide,Inpatient,Funding Source,All Other Payers,Substance Use Disorders,1659,27832,0.059607646
+2020,Statewide,Inpatient,Funding Source,Medi-Cal,All Other Diagnoses,727254,1087585,0.668687045
+2020,Statewide,Inpatient,Funding Source,Medi-Cal,Co-Occuring Disorders,107995,1087585,0.099297986
+2020,Statewide,Inpatient,Funding Source,Medi-Cal,Mental Health Disorders,128063,1087585,0.117749877
+2020,Statewide,Inpatient,Funding Source,Medi-Cal,Substance Use Disorders,124273,1087585,0.114265092
+2020,Statewide,Inpatient,Funding Source,Medicare,All Other Diagnoses,786669,1174042,0.670051838
+2020,Statewide,Inpatient,Funding Source,Medicare,Co-Occuring Disorders,58424,1174042,0.049763126
+2020,Statewide,Inpatient,Funding Source,Medicare,Mental Health Disorders,268034,1174042,0.22830018
+2020,Statewide,Inpatient,Funding Source,Medicare,Substance Use Disorders,60915,1174042,0.051884856
+2020,Statewide,Inpatient,Funding Source,Other Government,All Other Diagnoses,55593,94645,0.587384437
+2020,Statewide,Inpatient,Funding Source,Other Government,Co-Occuring Disorders,15504,94645,0.16381214
+2020,Statewide,Inpatient,Funding Source,Other Government,Mental Health Disorders,17309,94645,0.182883406
+2020,Statewide,Inpatient,Funding Source,Other Government,Substance Use Disorders,6239,94645,0.065920017
+2020,Statewide,Inpatient,Funding Source,Private Health Insurance,All Other Diagnoses,773849,996531,0.776542827
+2020,Statewide,Inpatient,Funding Source,Private Health Insurance,Co-Occuring Disorders,53671,996531,0.053857833
+2020,Statewide,Inpatient,Funding Source,Private Health Insurance,Mental Health Disorders,129679,996531,0.130130422
+2020,Statewide,Inpatient,Funding Source,Private Health Insurance,Substance Use Disorders,39332,996531,0.039468918
+2020,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,All Other Diagnoses,43914,62907,0.698078115
+2020,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Co-Occuring Disorders,5483,62907,0.087160411
+2020,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Mental Health Disorders,5381,62907,0.08553897
+2020,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Substance Use Disorders,8129,62907,0.129222503
+2020,Statewide,Inpatient,Race,American Indian/Alaska Native,All Other Diagnoses,6292,10933,0.575505351
+2020,Statewide,Inpatient,Race,American Indian/Alaska Native,Co-Occuring Disorders,1302,10933,0.119088997
+2020,Statewide,Inpatient,Race,American Indian/Alaska Native,Mental Health Disorders,1989,10933,0.181926278
+2020,Statewide,Inpatient,Race,American Indian/Alaska Native,Substance Use Disorders,1350,10933,0.123479374
+2020,Statewide,Inpatient,Race,Asian,All Other Diagnoses,263738,307291,0.858267896
+2020,Statewide,Inpatient,Race,Asian,Co-Occuring Disorders,5660,307291,0.018419023
+2020,Statewide,Inpatient,Race,Asian,Mental Health Disorders,31168,307291,0.101428288
+2020,Statewide,Inpatient,Race,Asian,Substance Use Disorders,6725,307291,0.021884793
+2020,Statewide,Inpatient,Race,Black,All Other Diagnoses,173597,285743,0.607528443
+2020,Statewide,Inpatient,Race,Black,Co-Occuring Disorders,30906,285743,0.10816013
+2020,Statewide,Inpatient,Race,Black,Mental Health Disorders,50198,285743,0.175675345
+2020,Statewide,Inpatient,Race,Black,Substance Use Disorders,31042,285743,0.108636082
+2020,Statewide,Inpatient,Race,Hispanic,All Other Diagnoses,881289,1150845,0.765775582
+2020,Statewide,Inpatient,Race,Hispanic,Co-Occuring Disorders,59624,1150845,0.051808888
+2020,Statewide,Inpatient,Race,Hispanic,Mental Health Disorders,131764,1150845,0.114493264
+2020,Statewide,Inpatient,Race,Hispanic,Substance Use Disorders,78168,1150845,0.067922266
+2020,Statewide,Inpatient,Race,Multiracial,All Other Diagnoses,28251,42531,0.664244904
+2020,Statewide,Inpatient,Race,Multiracial,Co-Occuring Disorders,3423,42531,0.080482472
+2020,Statewide,Inpatient,Race,Multiracial,Mental Health Disorders,7637,42531,0.179563142
+2020,Statewide,Inpatient,Race,Multiracial,Substance Use Disorders,3220,42531,0.075709483
+2020,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,All Other Diagnoses,17589,21673,0.811562774
+2020,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Co-Occuring Disorders,674,21673,0.031098602
+2020,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Mental Health Disorders,2473,21673,0.114105108
+2020,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Substance Use Disorders,937,21673,0.043233516
+2020,Statewide,Inpatient,Race,Other Race,All Other Diagnoses,122826,170205,0.721635675
+2020,Statewide,Inpatient,Race,Other Race,Co-Occuring Disorders,11486,170205,0.067483329
+2020,Statewide,Inpatient,Race,Other Race,Mental Health Disorders,25739,170205,0.151223525
+2020,Statewide,Inpatient,Race,Other Race,Substance Use Disorders,10154,170205,0.059657472
+2020,Statewide,Inpatient,Race,Unknown/Invalid,All Other Diagnoses,22872,32466,0.704490852
+2020,Statewide,Inpatient,Race,Unknown/Invalid,Co-Occuring Disorders,2615,32466,0.080545802
+2020,Statewide,Inpatient,Race,Unknown/Invalid,Mental Health Disorders,4777,32466,0.147138545
+2020,Statewide,Inpatient,Race,Unknown/Invalid,Substance Use Disorders,2202,32466,0.067824801
+2020,Statewide,Inpatient,Race,White,All Other Diagnoses,892168,1422845,0.627031054
+2020,Statewide,Inpatient,Race,White,Co-Occuring Disorders,126847,1422845,0.089150259
+2020,Statewide,Inpatient,Race,White,Mental Health Disorders,296991,1422845,0.208730396
+2020,Statewide,Inpatient,Race,White,Substance Use Disorders,106839,1422845,0.075088291
+2020,Statewide,Inpatient,Age,0 to 18,All Other Diagnoses,546622,594069,0.920132173
+2020,Statewide,Inpatient,Age,0 to 18,Co-Occuring Disorders,10429,594069,0.0175552
+2020,Statewide,Inpatient,Age,0 to 18,Mental Health Disorders,34173,594069,0.057523621
+2020,Statewide,Inpatient,Age,0 to 18,Substance Use Disorders,2845,594069,0.004789006
+2020,Statewide,Inpatient,Age,19 to 39,All Other Diagnoses,531816,794225,0.669603702
+2020,Statewide,Inpatient,Age,19 to 39,Co-Occuring Disorders,91921,794225,0.115736725
+2020,Statewide,Inpatient,Age,19 to 39,Mental Health Disorders,108402,794225,0.136487771
+2020,Statewide,Inpatient,Age,19 to 39,Substance Use Disorders,62086,794225,0.078171803
+2020,Statewide,Inpatient,Age,40 to 59,All Other Diagnoses,366162,672668,0.544342826
+2020,Statewide,Inpatient,Age,40 to 59,Co-Occuring Disorders,87499,672668,0.130077542
+2020,Statewide,Inpatient,Age,40 to 59,Mental Health Disorders,125228,672668,0.186166133
+2020,Statewide,Inpatient,Age,40 to 59,Substance Use Disorders,93779,672668,0.1394135
+2020,Statewide,Inpatient,Age,60+,All Other Diagnoses,963954,1383484,0.696758329
+2020,Statewide,Inpatient,Age,60+,Co-Occuring Disorders,52682,1383484,0.038079226
+2020,Statewide,Inpatient,Age,60+,Mental Health Disorders,284928,1383484,0.205949617
+2020,Statewide,Inpatient,Age,60+,Substance Use Disorders,81920,1383484,0.059212828
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,Mood disorders,472522,,
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,Anxiety disorders,353621,,
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,Adjustment disorders,71605,,
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,"Intentional self-harm, suicidal ideation, and suicide attempts",118105,,
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,Schizophrenia and other psychotic disorders,163474,,
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,Personality disorders,14631,,
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,Impulse control disorders not elsewhere classified,7899,,
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,Miscellaneous mental health conditions,54862,,
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,Alcohol-related disorders,222480,,
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,Cannabis-related disorders,117879,,
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,Opioid-related disorders,90154,,
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,Stimulant-related disorders,157717,,
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,Sedative-related disorders,19169,,
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,Hallucinogen-related disorders,4190,,
+2020,Statewide,Inpatient,MH Category,All MBD Discharges,Miscellaneous substance-related disorders,40456,,
+2020,Statewide,ED Visit,DX Category,All Discharges,All Other Diagnoses,8470832,10023851,0.845067629
+2020,Statewide,ED Visit,DX Category,All Discharges,Co-Occuring Disorders,208341,10023851,0.020784527
+2020,Statewide,ED Visit,DX Category,All Discharges,Mental Health Disorders,903333,10023851,0.090118359
+2020,Statewide,ED Visit,DX Category,All Discharges,Substance Use Disorders,441345,10023851,0.044029485
+2020,Statewide,ED Visit,Sex,Female,All Other Diagnoses,4546742,5306443,0.85683423
+2020,Statewide,ED Visit,Sex,Female,Co-Occuring Disorders,80192,5306443,0.015112195
+2020,Statewide,ED Visit,Sex,Female,Mental Health Disorders,544901,5306443,0.102686677
+2020,Statewide,ED Visit,Sex,Female,Substance Use Disorders,134608,5306443,0.025366898
+2020,Statewide,ED Visit,Sex,Male,All Other Diagnoses,3923455,4716510,0.831855546
+2020,Statewide,ED Visit,Sex,Male,Co-Occuring Disorders,128113,4716510,0.027162669
+2020,Statewide,ED Visit,Sex,Male,Mental Health Disorders,358312,4716510,0.075969732
+2020,Statewide,ED Visit,Sex,Male,Substance Use Disorders,306630,4716510,0.065012053
+2020,Statewide,ED Visit,Funding Source,All Other Payers,All Other Diagnoses,120747,127875,0.944258065
+2020,Statewide,ED Visit,Funding Source,All Other Payers,Co-Occuring Disorders,548,127875,0.004285435
+2020,Statewide,ED Visit,Funding Source,All Other Payers,Mental Health Disorders,4540,127875,0.035503421
+2020,Statewide,ED Visit,Funding Source,All Other Payers,Substance Use Disorders,2040,127875,0.015953079
+2020,Statewide,ED Visit,Funding Source,Medi-Cal,All Other Diagnoses,3499414,4199044,0.833383504
+2020,Statewide,ED Visit,Funding Source,Medi-Cal,Co-Occuring Disorders,114980,4199044,0.027382423
+2020,Statewide,ED Visit,Funding Source,Medi-Cal,Mental Health Disorders,349951,4199044,0.083340637
+2020,Statewide,ED Visit,Funding Source,Medi-Cal,Substance Use Disorders,234699,4199044,0.055893437
+2020,Statewide,ED Visit,Funding Source,Medicare,All Other Diagnoses,1624550,1957201,0.830037385
+2020,Statewide,ED Visit,Funding Source,Medicare,Co-Occuring Disorders,33529,1957201,0.017131097
+2020,Statewide,ED Visit,Funding Source,Medicare,Mental Health Disorders,246058,1957201,0.125719331
+2020,Statewide,ED Visit,Funding Source,Medicare,Substance Use Disorders,53064,1957201,0.027112187
+2020,Statewide,ED Visit,Funding Source,Other Government,All Other Diagnoses,184915,220552,0.838419058
+2020,Statewide,ED Visit,Funding Source,Other Government,Co-Occuring Disorders,5222,220552,0.023676956
+2020,Statewide,ED Visit,Funding Source,Other Government,Mental Health Disorders,19143,220552,0.086795858
+2020,Statewide,ED Visit,Funding Source,Other Government,Substance Use Disorders,11272,220552,0.051108129
+2020,Statewide,ED Visit,Funding Source,Private Health Insurance,All Other Diagnoses,2446882,2803524,0.872787963
+2020,Statewide,ED Visit,Funding Source,Private Health Insurance,Co-Occuring Disorders,37471,2803524,0.013365678
+2020,Statewide,ED Visit,Funding Source,Private Health Insurance,Mental Health Disorders,237757,2803524,0.084806479
+2020,Statewide,ED Visit,Funding Source,Private Health Insurance,Substance Use Disorders,81414,2803524,0.02903988
+2020,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,All Other Diagnoses,591533,712515,0.830204276
+2020,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Co-Occuring Disorders,16541,712515,0.02321495
+2020,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Mental Health Disorders,45689,712515,0.064123562
+2020,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Substance Use Disorders,58752,712515,0.082457211
+2020,Statewide,ED Visit,Race,American Indian/Alaska Native,All Other Diagnoses,28318,35742,0.792289184
+2020,Statewide,ED Visit,Race,American Indian/Alaska Native,Co-Occuring Disorders,1154,35742,0.032286945
+2020,Statewide,ED Visit,Race,American Indian/Alaska Native,Mental Health Disorders,3624,35742,0.101393319
+2020,Statewide,ED Visit,Race,American Indian/Alaska Native,Substance Use Disorders,2646,35742,0.074030552
+2020,Statewide,ED Visit,Race,Asian,All Other Diagnoses,505822,556856,0.908353327
+2020,Statewide,ED Visit,Race,Asian,Co-Occuring Disorders,4252,556856,0.007635726
+2020,Statewide,ED Visit,Race,Asian,Mental Health Disorders,37810,556856,0.067899062
+2020,Statewide,ED Visit,Race,Asian,Substance Use Disorders,8972,556856,0.016111885
+2020,Statewide,ED Visit,Race,Black,All Other Diagnoses,882385,1079366,0.817503053
+2020,Statewide,ED Visit,Race,Black,Co-Occuring Disorders,31121,1079366,0.028832667
+2020,Statewide,ED Visit,Race,Black,Mental Health Disorders,107104,1079366,0.099228621
+2020,Statewide,ED Visit,Race,Black,Substance Use Disorders,58756,1079366,0.05443566
+2020,Statewide,ED Visit,Race,Hispanic,All Other Diagnoses,3600137,4094700,0.879218746
+2020,Statewide,ED Visit,Race,Hispanic,Co-Occuring Disorders,57766,4094700,0.014107505
+2020,Statewide,ED Visit,Race,Hispanic,Mental Health Disorders,283576,4094700,0.069254402
+2020,Statewide,ED Visit,Race,Hispanic,Substance Use Disorders,153221,4094700,0.037419347
+2020,Statewide,ED Visit,Race,Multiracial,All Other Diagnoses,78617,99309,0.791640234
+2020,Statewide,ED Visit,Race,Multiracial,Co-Occuring Disorders,3208,99309,0.032303215
+2020,Statewide,ED Visit,Race,Multiracial,Mental Health Disorders,11630,99309,0.117109225
+2020,Statewide,ED Visit,Race,Multiracial,Substance Use Disorders,5854,99309,0.058947326
+2020,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,All Other Diagnoses,48491,53713,0.902779588
+2020,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Co-Occuring Disorders,535,53713,0.009960345
+2020,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Mental Health Disorders,3527,53713,0.065663806
+2020,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Substance Use Disorders,1160,53713,0.021596262
+2020,Statewide,ED Visit,Race,Other Race,All Other Diagnoses,401662,467577,0.859028566
+2020,Statewide,ED Visit,Race,Other Race,Co-Occuring Disorders,8950,467577,0.019141232
+2020,Statewide,ED Visit,Race,Other Race,Mental Health Disorders,38588,467577,0.082527584
+2020,Statewide,ED Visit,Race,Other Race,Substance Use Disorders,18377,467577,0.039302618
+2020,Statewide,ED Visit,Race,Unknown/Invalid,All Other Diagnoses,76977,91683,0.83959949
+2020,Statewide,ED Visit,Race,Unknown/Invalid,Co-Occuring Disorders,1967,91683,0.021454359
+2020,Statewide,ED Visit,Race,Unknown/Invalid,Mental Health Disorders,7761,91683,0.084650371
+2020,Statewide,ED Visit,Race,Unknown/Invalid,Substance Use Disorders,4978,91683,0.05429578
+2020,Statewide,ED Visit,Race,White,All Other Diagnoses,2848423,3544905,0.803525906
+2020,Statewide,ED Visit,Race,White,Co-Occuring Disorders,99388,3544905,0.028036859
+2020,Statewide,ED Visit,Race,White,Mental Health Disorders,409713,3544905,0.115577992
+2020,Statewide,ED Visit,Race,White,Substance Use Disorders,187381,3544905,0.052859245
+2020,Statewide,ED Visit,Age,0 to 18,All Other Diagnoses,1616406,1709532,0.945525442
+2020,Statewide,ED Visit,Age,0 to 18,Co-Occuring Disorders,7770,1709532,0.004545104
+2020,Statewide,ED Visit,Age,0 to 18,Mental Health Disorders,68760,1709532,0.040221534
+2020,Statewide,ED Visit,Age,0 to 18,Substance Use Disorders,16596,1709532,0.00970792
+2020,Statewide,ED Visit,Age,19 to 39,All Other Diagnoses,2787390,3429135,0.812855137
+2020,Statewide,ED Visit,Age,19 to 39,Co-Occuring Disorders,103801,3429135,0.030270316
+2020,Statewide,ED Visit,Age,19 to 39,Mental Health Disorders,331442,3429135,0.096654696
+2020,Statewide,ED Visit,Age,19 to 39,Substance Use Disorders,206502,3429135,0.060219851
+2020,Statewide,ED Visit,Age,40 to 59,All Other Diagnoses,2081835,2578238,0.807464245
+2020,Statewide,ED Visit,Age,40 to 59,Co-Occuring Disorders,72785,2578238,0.02823052
+2020,Statewide,ED Visit,Age,40 to 59,Mental Health Disorders,271089,2578238,0.105145064
+2020,Statewide,ED Visit,Age,40 to 59,Substance Use Disorders,152529,2578238,0.059160171
+2020,Statewide,ED Visit,Age,60+,All Other Diagnoses,1985130,2306772,0.860566194
+2020,Statewide,ED Visit,Age,60+,Co-Occuring Disorders,23967,2306772,0.010389844
+2020,Statewide,ED Visit,Age,60+,Mental Health Disorders,232019,2306772,0.100581679
+2020,Statewide,ED Visit,Age,60+,Substance Use Disorders,65656,2306772,0.028462284
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,Mood disorders,503308,,
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,Anxiety disorders,553579,,
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,Adjustment disorders,75046,,
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,"Intentional self-harm, suicidal ideation, and suicide attempts",133729,,
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,Schizophrenia and other psychotic disorders,209066,,
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,Personality disorders,11660,,
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,Impulse control disorders not elsewhere classified,10898,,
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,Miscellaneous mental health conditions,33551,,
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,Alcohol-related disorders,276160,,
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,Cannabis-related disorders,135854,,
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,Opioid-related disorders,81466,,
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,Stimulant-related disorders,182548,,
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,Sedative-related disorders,12010,,
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,Hallucinogen-related disorders,5235,,
+2020,Statewide,ED Visit,MH Category,All MBD Discharges,Miscellaneous substance-related disorders,60604,,
+2021,Statewide,Inpatient,DX Category,All Discharges,All Other Diagnoses,2478886,3557587,0.696788582
+2021,Statewide,Inpatient,DX Category,All Discharges,Co-Occuring Disorders,246495,3557587,0.069287132
+2021,Statewide,Inpatient,DX Category,All Discharges,Mental Health Disorders,580065,3557587,0.163050124
+2021,Statewide,Inpatient,DX Category,All Discharges,Substance Use Disorders,252141,3557587,0.070874163
+2021,Statewide,Inpatient,Sex,Female,All Other Diagnoses,1391023,1935676,0.718623881
+2021,Statewide,Inpatient,Sex,Female,Co-Occuring Disorders,103152,1935676,0.05328991
+2021,Statewide,Inpatient,Sex,Female,Mental Health Disorders,369228,1935676,0.190748865
+2021,Statewide,Inpatient,Sex,Female,Substance Use Disorders,72273,1935676,0.037337344
+2021,Statewide,Inpatient,Sex,Male,All Other Diagnoses,1087648,1621593,0.670728105
+2021,Statewide,Inpatient,Sex,Male,Co-Occuring Disorders,143321,1621593,0.088382843
+2021,Statewide,Inpatient,Sex,Male,Mental Health Disorders,210780,1621593,0.129983294
+2021,Statewide,Inpatient,Sex,Male,Substance Use Disorders,179844,1621593,0.110905758
+2021,Statewide,Inpatient,Funding Source,All Other Payers,All Other Diagnoses,23295,31432,0.741123696
+2021,Statewide,Inpatient,Funding Source,All Other Payers,Co-Occuring Disorders,1434,31432,0.045622296
+2021,Statewide,Inpatient,Funding Source,All Other Payers,Mental Health Disorders,4896,31432,0.155764826
+2021,Statewide,Inpatient,Funding Source,All Other Payers,Substance Use Disorders,1807,31432,0.057489183
+2021,Statewide,Inpatient,Funding Source,Medi-Cal,All Other Diagnoses,746723,1128793,0.661523415
+2021,Statewide,Inpatient,Funding Source,Medi-Cal,Co-Occuring Disorders,112159,1128793,0.099361885
+2021,Statewide,Inpatient,Funding Source,Medi-Cal,Mental Health Disorders,137472,1128793,0.121786723
+2021,Statewide,Inpatient,Funding Source,Medi-Cal,Substance Use Disorders,132439,1128793,0.117327978
+2021,Statewide,Inpatient,Funding Source,Medicare,All Other Diagnoses,809592,1201415,0.6738654
+2021,Statewide,Inpatient,Funding Source,Medicare,Co-Occuring Disorders,58484,1201415,0.048679266
+2021,Statewide,Inpatient,Funding Source,Medicare,Mental Health Disorders,270933,1201415,0.225511584
+2021,Statewide,Inpatient,Funding Source,Medicare,Substance Use Disorders,62406,1201415,0.05194375
+2021,Statewide,Inpatient,Funding Source,Other Government,All Other Diagnoses,60423,100550,0.600924913
+2021,Statewide,Inpatient,Funding Source,Other Government,Co-Occuring Disorders,15795,100550,0.157086027
+2021,Statewide,Inpatient,Funding Source,Other Government,Mental Health Disorders,18042,100550,0.179433118
+2021,Statewide,Inpatient,Funding Source,Other Government,Substance Use Disorders,6290,100550,0.062555942
+2021,Statewide,Inpatient,Funding Source,Private Health Insurance,All Other Diagnoses,798928,1037105,0.770344372
+2021,Statewide,Inpatient,Funding Source,Private Health Insurance,Co-Occuring Disorders,53563,1037105,0.051646651
+2021,Statewide,Inpatient,Funding Source,Private Health Insurance,Mental Health Disorders,143581,1037105,0.138444034
+2021,Statewide,Inpatient,Funding Source,Private Health Insurance,Substance Use Disorders,41033,1037105,0.039564943
+2021,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,All Other Diagnoses,38678,56661,0.682621203
+2021,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Co-Occuring Disorders,4992,56661,0.088102928
+2021,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Mental Health Disorders,4958,56661,0.087502868
+2021,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Substance Use Disorders,8033,56661,0.141773001
+2021,Statewide,Inpatient,Race,American Indian/Alaska Native,All Other Diagnoses,6523,11106,0.587340177
+2021,Statewide,Inpatient,Race,American Indian/Alaska Native,Co-Occuring Disorders,1258,11106,0.113272105
+2021,Statewide,Inpatient,Race,American Indian/Alaska Native,Mental Health Disorders,1950,11106,0.175580767
+2021,Statewide,Inpatient,Race,American Indian/Alaska Native,Substance Use Disorders,1375,11106,0.123806951
+2021,Statewide,Inpatient,Race,Asian,All Other Diagnoses,271249,318147,0.852590155
+2021,Statewide,Inpatient,Race,Asian,Co-Occuring Disorders,5803,318147,0.018239996
+2021,Statewide,Inpatient,Race,Asian,Mental Health Disorders,34111,318147,0.107217733
+2021,Statewide,Inpatient,Race,Asian,Substance Use Disorders,6984,318147,0.021952117
+2021,Statewide,Inpatient,Race,Black,All Other Diagnoses,182174,299464,0.608333556
+2021,Statewide,Inpatient,Race,Black,Co-Occuring Disorders,32195,299464,0.107508749
+2021,Statewide,Inpatient,Race,Black,Mental Health Disorders,52399,299464,0.174975957
+2021,Statewide,Inpatient,Race,Black,Substance Use Disorders,32696,299464,0.109181738
+2021,Statewide,Inpatient,Race,Hispanic,All Other Diagnoses,915881,1208758,0.757704189
+2021,Statewide,Inpatient,Race,Hispanic,Co-Occuring Disorders,62979,1208758,0.052102241
+2021,Statewide,Inpatient,Race,Hispanic,Mental Health Disorders,144947,1208758,0.119913994
+2021,Statewide,Inpatient,Race,Hispanic,Substance Use Disorders,84951,1208758,0.070279576
+2021,Statewide,Inpatient,Race,Multiracial,All Other Diagnoses,27047,41193,0.656592139
+2021,Statewide,Inpatient,Race,Multiracial,Co-Occuring Disorders,3697,41193,0.089748258
+2021,Statewide,Inpatient,Race,Multiracial,Mental Health Disorders,7292,41193,0.177020368
+2021,Statewide,Inpatient,Race,Multiracial,Substance Use Disorders,3157,41193,0.076639235
+2021,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,All Other Diagnoses,18111,22394,0.808743413
+2021,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Co-Occuring Disorders,712,22394,0.031794231
+2021,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Mental Health Disorders,2585,22394,0.115432705
+2021,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Substance Use Disorders,986,22394,0.044029651
+2021,Statewide,Inpatient,Race,Other Race,All Other Diagnoses,125458,175502,0.714852252
+2021,Statewide,Inpatient,Race,Other Race,Co-Occuring Disorders,11834,175502,0.067429431
+2021,Statewide,Inpatient,Race,Other Race,Mental Health Disorders,27629,175502,0.157428405
+2021,Statewide,Inpatient,Race,Other Race,Substance Use Disorders,10581,175502,0.060289911
+2021,Statewide,Inpatient,Race,Unknown/Invalid,All Other Diagnoses,24762,34983,0.707829517
+2021,Statewide,Inpatient,Race,Unknown/Invalid,Co-Occuring Disorders,2864,34983,0.081868336
+2021,Statewide,Inpatient,Race,Unknown/Invalid,Mental Health Disorders,5071,34983,0.144956122
+2021,Statewide,Inpatient,Race,Unknown/Invalid,Substance Use Disorders,2286,34983,0.065346025
+2021,Statewide,Inpatient,Race,White,All Other Diagnoses,907681,1446040,0.62770117
+2021,Statewide,Inpatient,Race,White,Co-Occuring Disorders,125153,1446040,0.086548782
+2021,Statewide,Inpatient,Race,White,Mental Health Disorders,304081,1446040,0.210285331
+2021,Statewide,Inpatient,Race,White,Substance Use Disorders,109125,1446040,0.075464717
+2021,Statewide,Inpatient,Age,0 to 18,All Other Diagnoses,553733,605397,0.914660958
+2021,Statewide,Inpatient,Age,0 to 18,Co-Occuring Disorders,9862,605397,0.016290137
+2021,Statewide,Inpatient,Age,0 to 18,Mental Health Disorders,39192,605397,0.064737685
+2021,Statewide,Inpatient,Age,0 to 18,Substance Use Disorders,2610,605397,0.004311221
+2021,Statewide,Inpatient,Age,19 to 39,All Other Diagnoses,537846,813765,0.660935282
+2021,Statewide,Inpatient,Age,19 to 39,Co-Occuring Disorders,93736,813765,0.115188046
+2021,Statewide,Inpatient,Age,19 to 39,Mental Health Disorders,117934,813765,0.144923903
+2021,Statewide,Inpatient,Age,19 to 39,Substance Use Disorders,64249,813765,0.078952769
+2021,Statewide,Inpatient,Age,40 to 59,All Other Diagnoses,379417,694248,0.546515078
+2021,Statewide,Inpatient,Age,40 to 59,Co-Occuring Disorders,87514,694248,0.126055819
+2021,Statewide,Inpatient,Age,40 to 59,Mental Health Disorders,128127,694248,0.184555087
+2021,Statewide,Inpatient,Age,40 to 59,Substance Use Disorders,99190,694248,0.142874016
+2021,Statewide,Inpatient,Age,60+,All Other Diagnoses,1007815,1444051,0.697908176
+2021,Statewide,Inpatient,Age,60+,Co-Occuring Disorders,55358,1444051,0.038335211
+2021,Statewide,Inpatient,Age,60+,Mental Health Disorders,294798,1444051,0.20414653
+2021,Statewide,Inpatient,Age,60+,Substance Use Disorders,86080,1444051,0.059610083
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,Mood disorders,491018,,
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,Anxiety disorders,386552,,
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,Adjustment disorders,78927,,
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,"Intentional self-harm, suicidal ideation, and suicide attempts",122041,,
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,Schizophrenia and other psychotic disorders,165217,,
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,Personality disorders,14940,,
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,Impulse control disorders not elsewhere classified,7613,,
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,Miscellaneous mental health conditions,62430,,
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,Alcohol-related disorders,230308,,
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,Cannabis-related disorders,121955,,
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,Opioid-related disorders,89712,,
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,Stimulant-related disorders,163737,,
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,Sedative-related disorders,19363,,
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,Hallucinogen-related disorders,4355,,
+2021,Statewide,Inpatient,MH Category,All MBD Discharges,Miscellaneous substance-related disorders,39762,,
+2021,Statewide,ED Visit,DX Category,All Discharges,All Other Diagnoses,9366589,10907850,0.858701669
+2021,Statewide,ED Visit,DX Category,All Discharges,Co-Occuring Disorders,194761,10907850,0.017855123
+2021,Statewide,ED Visit,DX Category,All Discharges,Mental Health Disorders,881927,10907850,0.080852505
+2021,Statewide,ED Visit,DX Category,All Discharges,Substance Use Disorders,464573,10907850,0.042590703
+2021,Statewide,ED Visit,Sex,Female,All Other Diagnoses,5079733,5842759,0.86940656
+2021,Statewide,ED Visit,Sex,Female,Co-Occuring Disorders,75517,5842759,0.012924887
+2021,Statewide,ED Visit,Sex,Female,Mental Health Disorders,540858,5842759,0.092568939
+2021,Statewide,ED Visit,Sex,Female,Substance Use Disorders,146651,5842759,0.025099615
+2021,Statewide,ED Visit,Sex,Male,All Other Diagnoses,4285887,5063762,0.846383973
+2021,Statewide,ED Visit,Sex,Male,Co-Occuring Disorders,119202,5063762,0.023540206
+2021,Statewide,ED Visit,Sex,Male,Mental Health Disorders,340874,5063762,0.067316355
+2021,Statewide,ED Visit,Sex,Male,Substance Use Disorders,317799,5063762,0.062759466
+2021,Statewide,ED Visit,Funding Source,All Other Payers,All Other Diagnoses,134004,141259,0.948640441
+2021,Statewide,ED Visit,Funding Source,All Other Payers,Co-Occuring Disorders,483,141259,0.003419251
+2021,Statewide,ED Visit,Funding Source,All Other Payers,Mental Health Disorders,4587,141259,0.032472267
+2021,Statewide,ED Visit,Funding Source,All Other Payers,Substance Use Disorders,2185,141259,0.015468041
+2021,Statewide,ED Visit,Funding Source,Medi-Cal,All Other Diagnoses,3974371,4678312,0.849530985
+2021,Statewide,ED Visit,Funding Source,Medi-Cal,Co-Occuring Disorders,109152,4678312,0.023331492
+2021,Statewide,ED Visit,Funding Source,Medi-Cal,Mental Health Disorders,342261,4678312,0.07315908
+2021,Statewide,ED Visit,Funding Source,Medi-Cal,Substance Use Disorders,252528,4678312,0.053978444
+2021,Statewide,ED Visit,Funding Source,Medicare,All Other Diagnoses,1773671,2093470,0.84723975
+2021,Statewide,ED Visit,Funding Source,Medicare,Co-Occuring Disorders,31168,2093470,0.0148882
+2021,Statewide,ED Visit,Funding Source,Medicare,Mental Health Disorders,233724,2093470,0.111644304
+2021,Statewide,ED Visit,Funding Source,Medicare,Substance Use Disorders,54907,2093470,0.026227746
+2021,Statewide,ED Visit,Funding Source,Other Government,All Other Diagnoses,197186,232024,0.84985174
+2021,Statewide,ED Visit,Funding Source,Other Government,Co-Occuring Disorders,5193,232024,0.022381305
+2021,Statewide,ED Visit,Funding Source,Other Government,Mental Health Disorders,17502,232024,0.075431852
+2021,Statewide,ED Visit,Funding Source,Other Government,Substance Use Disorders,12143,232024,0.052335103
+2021,Statewide,ED Visit,Funding Source,Private Health Insurance,All Other Diagnoses,2742735,3112455,0.88121274
+2021,Statewide,ED Visit,Funding Source,Private Health Insurance,Co-Occuring Disorders,35521,3112455,0.011412535
+2021,Statewide,ED Visit,Funding Source,Private Health Insurance,Mental Health Disorders,246237,3112455,0.079113433
+2021,Statewide,ED Visit,Funding Source,Private Health Insurance,Substance Use Disorders,87962,3112455,0.028261292
+2021,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,All Other Diagnoses,541756,647075,0.837238342
+2021,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Co-Occuring Disorders,13188,647075,0.020380945
+2021,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Mental Health Disorders,37394,647075,0.057789283
+2021,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Substance Use Disorders,54737,647075,0.084591431
+2021,Statewide,ED Visit,Race,American Indian/Alaska Native,All Other Diagnoses,30795,38039,0.809563869
+2021,Statewide,ED Visit,Race,American Indian/Alaska Native,Co-Occuring Disorders,1053,38039,0.027682116
+2021,Statewide,ED Visit,Race,American Indian/Alaska Native,Mental Health Disorders,3540,38039,0.093062383
+2021,Statewide,ED Visit,Race,American Indian/Alaska Native,Substance Use Disorders,2651,38039,0.069691632
+2021,Statewide,ED Visit,Race,Asian,All Other Diagnoses,571007,626178,0.911892465
+2021,Statewide,ED Visit,Race,Asian,Co-Occuring Disorders,4173,626178,0.006664239
+2021,Statewide,ED Visit,Race,Asian,Mental Health Disorders,40979,626178,0.065443053
+2021,Statewide,ED Visit,Race,Asian,Substance Use Disorders,10019,626178,0.016000243
+2021,Statewide,ED Visit,Race,Black,All Other Diagnoses,961376,1158007,0.830198781
+2021,Statewide,ED Visit,Race,Black,Co-Occuring Disorders,29588,1158007,0.025550796
+2021,Statewide,ED Visit,Race,Black,Mental Health Disorders,107526,1158007,0.092854361
+2021,Statewide,ED Visit,Race,Black,Substance Use Disorders,59517,1158007,0.051396062
+2021,Statewide,ED Visit,Race,Hispanic,All Other Diagnoses,4037273,4542596,0.888758983
+2021,Statewide,ED Visit,Race,Hispanic,Co-Occuring Disorders,56822,4542596,0.012508707
+2021,Statewide,ED Visit,Race,Hispanic,Mental Health Disorders,282645,4542596,0.06222103
+2021,Statewide,ED Visit,Race,Hispanic,Substance Use Disorders,165856,4542596,0.036511281
+2021,Statewide,ED Visit,Race,Multiracial,All Other Diagnoses,86600,106739,0.81132482
+2021,Statewide,ED Visit,Race,Multiracial,Co-Occuring Disorders,3049,106739,0.028565004
+2021,Statewide,ED Visit,Race,Multiracial,Mental Health Disorders,11319,106739,0.106043714
+2021,Statewide,ED Visit,Race,Multiracial,Substance Use Disorders,5771,106739,0.054066461
+2021,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,All Other Diagnoses,51258,56851,0.901620024
+2021,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Co-Occuring Disorders,633,56851,0.011134369
+2021,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Mental Health Disorders,3598,56851,0.063288245
+2021,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Substance Use Disorders,1362,56851,0.023957362
+2021,Statewide,ED Visit,Race,Other Race,All Other Diagnoses,443237,507706,0.873019031
+2021,Statewide,ED Visit,Race,Other Race,Co-Occuring Disorders,8365,507706,0.016476071
+2021,Statewide,ED Visit,Race,Other Race,Mental Health Disorders,35724,507706,0.070363557
+2021,Statewide,ED Visit,Race,Other Race,Substance Use Disorders,20380,507706,0.040141342
+2021,Statewide,ED Visit,Race,Unknown/Invalid,All Other Diagnoses,98952,115616,0.8558677
+2021,Statewide,ED Visit,Race,Unknown/Invalid,Co-Occuring Disorders,2157,115616,0.018656587
+2021,Statewide,ED Visit,Race,Unknown/Invalid,Mental Health Disorders,8401,115616,0.072662953
+2021,Statewide,ED Visit,Race,Unknown/Invalid,Substance Use Disorders,6106,115616,0.05281276
+2021,Statewide,ED Visit,Race,White,All Other Diagnoses,3086091,3756118,0.821617159
+2021,Statewide,ED Visit,Race,White,Co-Occuring Disorders,88921,3756118,0.023673644
+2021,Statewide,ED Visit,Race,White,Mental Health Disorders,388195,3756118,0.103350055
+2021,Statewide,ED Visit,Race,White,Substance Use Disorders,192911,3756118,0.051359143
+2021,Statewide,ED Visit,Age,0 to 18,All Other Diagnoses,1890492,1993266,0.948439395
+2021,Statewide,ED Visit,Age,0 to 18,Co-Occuring Disorders,6878,1993266,0.003450618
+2021,Statewide,ED Visit,Age,0 to 18,Mental Health Disorders,79630,1993266,0.03994951
+2021,Statewide,ED Visit,Age,0 to 18,Substance Use Disorders,16266,1993266,0.008160476
+2021,Statewide,ED Visit,Age,19 to 39,All Other Diagnoses,3009456,3647966,0.824968215
+2021,Statewide,ED Visit,Age,19 to 39,Co-Occuring Disorders,97588,3647966,0.026751346
+2021,Statewide,ED Visit,Age,19 to 39,Mental Health Disorders,321336,3647966,0.088086347
+2021,Statewide,ED Visit,Age,19 to 39,Substance Use Disorders,219586,3647966,0.060194092
+2021,Statewide,ED Visit,Age,40 to 59,All Other Diagnoses,2239348,2719939,0.82330817
+2021,Statewide,ED Visit,Age,40 to 59,Co-Occuring Disorders,67169,2719939,0.024695039
+2021,Statewide,ED Visit,Age,40 to 59,Mental Health Disorders,254392,2719939,0.093528568
+2021,Statewide,ED Visit,Age,40 to 59,Substance Use Disorders,159030,2719939,0.058468223
+2021,Statewide,ED Visit,Age,60+,All Other Diagnoses,2227030,2546132,0.874671855
+2021,Statewide,ED Visit,Age,60+,Co-Occuring Disorders,23097,2546132,0.009071407
+2021,Statewide,ED Visit,Age,60+,Mental Health Disorders,226509,2546132,0.088962002
+2021,Statewide,ED Visit,Age,60+,Substance Use Disorders,69496,2546132,0.027294736
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,Mood disorders,473740,,
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,Anxiety disorders,526597,,
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,Adjustment disorders,78049,,
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,"Intentional self-harm, suicidal ideation, and suicide attempts",140421,,
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,Schizophrenia and other psychotic disorders,201296,,
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,Personality disorders,12563,,
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,Impulse control disorders not elsewhere classified,11093,,
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,Miscellaneous mental health conditions,34646,,
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,Alcohol-related disorders,281362,,
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,Cannabis-related disorders,133605,,
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,Opioid-related disorders,87658,,
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,Stimulant-related disorders,180779,,
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,Sedative-related disorders,11646,,
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,Hallucinogen-related disorders,5029,,
+2021,Statewide,ED Visit,MH Category,All MBD Discharges,Miscellaneous substance-related disorders,60650,,
+2022,Statewide,Inpatient,DX Category,All Discharges,All Other Diagnoses,2560307,3603421,0.710521196
+2022,Statewide,Inpatient,DX Category,All Discharges,Co-Occuring Disorders,235768,3603421,0.065428935
+2022,Statewide,Inpatient,DX Category,All Discharges,Mental Health Disorders,558346,3603421,0.154948867
+2022,Statewide,Inpatient,DX Category,All Discharges,Substance Use Disorders,249000,3603421,0.069101002
+2022,Statewide,Inpatient,Sex,Female,All Other Diagnoses,1441930,1967212,0.732981499
+2022,Statewide,Inpatient,Sex,Female,Co-Occuring Disorders,98833,1967212,0.050240137
+2022,Statewide,Inpatient,Sex,Female,Mental Health Disorders,354885,1967212,0.180399977
+2022,Statewide,Inpatient,Sex,Female,Substance Use Disorders,71564,1967212,0.036378387
+2022,Statewide,Inpatient,Sex,Male,All Other Diagnoses,1118079,1635737,0.683532255
+2022,Statewide,Inpatient,Sex,Male,Co-Occuring Disorders,136902,1635737,0.083694384
+2022,Statewide,Inpatient,Sex,Male,Mental Health Disorders,203370,1635737,0.124329278
+2022,Statewide,Inpatient,Sex,Male,Substance Use Disorders,177386,1635737,0.108444084
+2022,Statewide,Inpatient,Funding Source,All Other Payers,All Other Diagnoses,25597,34294,0.746398787
+2022,Statewide,Inpatient,Funding Source,All Other Payers,Co-Occuring Disorders,1424,34294,0.041523299
+2022,Statewide,Inpatient,Funding Source,All Other Payers,Mental Health Disorders,5204,34294,0.151746661
+2022,Statewide,Inpatient,Funding Source,All Other Payers,Substance Use Disorders,2069,34294,0.060331253
+2022,Statewide,Inpatient,Funding Source,Medi-Cal,All Other Diagnoses,761516,1131132,0.67323354
+2022,Statewide,Inpatient,Funding Source,Medi-Cal,Co-Occuring Disorders,108809,1131132,0.096194785
+2022,Statewide,Inpatient,Funding Source,Medi-Cal,Mental Health Disorders,132643,1131132,0.117265713
+2022,Statewide,Inpatient,Funding Source,Medi-Cal,Substance Use Disorders,128164,1131132,0.113305963
+2022,Statewide,Inpatient,Funding Source,Medicare,All Other Diagnoses,874589,1259416,0.694440122
+2022,Statewide,Inpatient,Funding Source,Medicare,Co-Occuring Disorders,54984,1259416,0.043658331
+2022,Statewide,Inpatient,Funding Source,Medicare,Mental Health Disorders,265793,1259416,0.211044643
+2022,Statewide,Inpatient,Funding Source,Medicare,Substance Use Disorders,64050,1259416,0.050856905
+2022,Statewide,Inpatient,Funding Source,Other Government,All Other Diagnoses,63443,101413,0.625590408
+2022,Statewide,Inpatient,Funding Source,Other Government,Co-Occuring Disorders,14164,101413,0.139666512
+2022,Statewide,Inpatient,Funding Source,Other Government,Mental Health Disorders,17691,101413,0.174445091
+2022,Statewide,Inpatient,Funding Source,Other Government,Substance Use Disorders,6115,101413,0.060297989
+2022,Statewide,Inpatient,Funding Source,Private Health Insurance,All Other Diagnoses,793033,1018071,0.778956478
+2022,Statewide,Inpatient,Funding Source,Private Health Insurance,Co-Occuring Disorders,51903,1018071,0.05098171
+2022,Statewide,Inpatient,Funding Source,Private Health Insurance,Mental Health Disorders,132083,1018071,0.129738496
+2022,Statewide,Inpatient,Funding Source,Private Health Insurance,Substance Use Disorders,41052,1018071,0.040323317
+2022,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,All Other Diagnoses,40903,57500,0.711356522
+2022,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Co-Occuring Disorders,4418,57500,0.076834783
+2022,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Mental Health Disorders,4767,57500,0.082904348
+2022,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Substance Use Disorders,7412,57500,0.128904348
+2022,Statewide,Inpatient,Race,American Indian/Alaska Native,All Other Diagnoses,6426,10604,0.605997737
+2022,Statewide,Inpatient,Race,American Indian/Alaska Native,Co-Occuring Disorders,1154,10604,0.108826858
+2022,Statewide,Inpatient,Race,American Indian/Alaska Native,Mental Health Disorders,1778,10604,0.167672576
+2022,Statewide,Inpatient,Race,American Indian/Alaska Native,Substance Use Disorders,1246,10604,0.117502829
+2022,Statewide,Inpatient,Race,Asian,All Other Diagnoses,284439,330786,0.859888266
+2022,Statewide,Inpatient,Race,Asian,Co-Occuring Disorders,5580,330786,0.016868912
+2022,Statewide,Inpatient,Race,Asian,Mental Health Disorders,33497,330786,0.101264866
+2022,Statewide,Inpatient,Race,Asian,Substance Use Disorders,7270,330786,0.021977956
+2022,Statewide,Inpatient,Race,Black,All Other Diagnoses,185210,297185,0.623214496
+2022,Statewide,Inpatient,Race,Black,Co-Occuring Disorders,30566,297185,0.102851759
+2022,Statewide,Inpatient,Race,Black,Mental Health Disorders,50340,297185,0.169389438
+2022,Statewide,Inpatient,Race,Black,Substance Use Disorders,31069,297185,0.104544307
+2022,Statewide,Inpatient,Race,Hispanic,All Other Diagnoses,953076,1239016,0.769220091
+2022,Statewide,Inpatient,Race,Hispanic,Co-Occuring Disorders,62110,1239016,0.050128489
+2022,Statewide,Inpatient,Race,Hispanic,Mental Health Disorders,138390,1239016,0.111693473
+2022,Statewide,Inpatient,Race,Hispanic,Substance Use Disorders,85440,1239016,0.068957947
+2022,Statewide,Inpatient,Race,Multiracial,All Other Diagnoses,29161,42543,0.685447665
+2022,Statewide,Inpatient,Race,Multiracial,Co-Occuring Disorders,3469,42543,0.081541029
+2022,Statewide,Inpatient,Race,Multiracial,Mental Health Disorders,6910,42543,0.162423901
+2022,Statewide,Inpatient,Race,Multiracial,Substance Use Disorders,3003,42543,0.070587406
+2022,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,All Other Diagnoses,17382,21175,0.820873672
+2022,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Co-Occuring Disorders,609,21175,0.028760331
+2022,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Mental Health Disorders,2241,21175,0.10583235
+2022,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Substance Use Disorders,943,21175,0.044533648
+2022,Statewide,Inpatient,Race,Other Race,All Other Diagnoses,127604,180278,0.707817926
+2022,Statewide,Inpatient,Race,Other Race,Co-Occuring Disorders,12699,180278,0.070441208
+2022,Statewide,Inpatient,Race,Other Race,Mental Health Disorders,29357,180278,0.162842943
+2022,Statewide,Inpatient,Race,Other Race,Substance Use Disorders,10618,180278,0.058897924
+2022,Statewide,Inpatient,Race,Unknown/Invalid,All Other Diagnoses,27528,38623,0.712735935
+2022,Statewide,Inpatient,Race,Unknown/Invalid,Co-Occuring Disorders,2890,38623,0.074825881
+2022,Statewide,Inpatient,Race,Unknown/Invalid,Mental Health Disorders,5739,38623,0.148590218
+2022,Statewide,Inpatient,Race,Unknown/Invalid,Substance Use Disorders,2466,38623,0.063847966
+2022,Statewide,Inpatient,Race,White,All Other Diagnoses,929481,1443211,0.644036804
+2022,Statewide,Inpatient,Race,White,Co-Occuring Disorders,116691,1443211,0.080855121
+2022,Statewide,Inpatient,Race,White,Mental Health Disorders,290094,1443211,0.201005951
+2022,Statewide,Inpatient,Race,White,Substance Use Disorders,106945,1443211,0.074102124
+2022,Statewide,Inpatient,Age,0 to 18,All Other Diagnoses,577160,626398,0.921395024
+2022,Statewide,Inpatient,Age,0 to 18,Co-Occuring Disorders,10608,626398,0.01693492
+2022,Statewide,Inpatient,Age,0 to 18,Mental Health Disorders,36220,626398,0.057822662
+2022,Statewide,Inpatient,Age,0 to 18,Substance Use Disorders,2410,626398,0.003847394
+2022,Statewide,Inpatient,Age,19 to 39,All Other Diagnoses,535085,796837,0.671511238
+2022,Statewide,Inpatient,Age,19 to 39,Co-Occuring Disorders,87844,796837,0.110240865
+2022,Statewide,Inpatient,Age,19 to 39,Mental Health Disorders,113776,796837,0.142784534
+2022,Statewide,Inpatient,Age,19 to 39,Substance Use Disorders,60132,796837,0.075463363
+2022,Statewide,Inpatient,Age,40 to 59,All Other Diagnoses,366421,661927,0.553567085
+2022,Statewide,Inpatient,Age,40 to 59,Co-Occuring Disorders,82079,661927,0.124000079
+2022,Statewide,Inpatient,Age,40 to 59,Mental Health Disorders,117136,661927,0.176962112
+2022,Statewide,Inpatient,Age,40 to 59,Substance Use Disorders,96291,661927,0.145470724
+2022,Statewide,Inpatient,Age,60+,All Other Diagnoses,1081530,1518063,0.712440788
+2022,Statewide,Inpatient,Age,60+,Co-Occuring Disorders,55207,1518063,0.036366738
+2022,Statewide,Inpatient,Age,60+,Mental Health Disorders,291204,1518063,0.191826031
+2022,Statewide,Inpatient,Age,60+,Substance Use Disorders,90122,1518063,0.059366443
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,Mood disorders,472080,,
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,Anxiety disorders,367889,,
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,Adjustment disorders,76098,,
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,"Intentional self-harm, suicidal ideation, and suicide attempts",127979,,
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,Schizophrenia and other psychotic disorders,162565,,
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,Personality disorders,14888,,
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,Impulse control disorders not elsewhere classified,9047,,
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,Miscellaneous mental health conditions,58487,,
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,Alcohol-related disorders,229683,,
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,Cannabis-related disorders,112488,,
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,Opioid-related disorders,85509,,
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,Stimulant-related disorders,159197,,
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,Sedative-related disorders,17665,,
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,Hallucinogen-related disorders,4142,,
+2022,Statewide,Inpatient,MH Category,All MBD Discharges,Miscellaneous substance-related disorders,37920,,
+2022,Statewide,ED Visit,DX Category,All Discharges,All Other Diagnoses,10904340,12280042,0.887972533
+2022,Statewide,ED Visit,DX Category,All Discharges,Co-Occuring Disorders,164974,12280042,0.013434319
+2022,Statewide,ED Visit,DX Category,All Discharges,Mental Health Disorders,741758,12280042,0.060403539
+2022,Statewide,ED Visit,DX Category,All Discharges,Substance Use Disorders,468970,12280042,0.038189609
+2022,Statewide,ED Visit,Sex,Female,All Other Diagnoses,5923295,6589957,0.898836669
+2022,Statewide,ED Visit,Sex,Female,Co-Occuring Disorders,64386,6589957,0.009770322
+2022,Statewide,ED Visit,Sex,Female,Mental Health Disorders,449026,6589957,0.068137926
+2022,Statewide,ED Visit,Sex,Female,Substance Use Disorders,153250,6589957,0.023255084
+2022,Statewide,ED Visit,Sex,Male,All Other Diagnoses,4979518,5688067,0.875432375
+2022,Statewide,ED Visit,Sex,Male,Co-Occuring Disorders,100539,5688067,0.017675425
+2022,Statewide,ED Visit,Sex,Male,Mental Health Disorders,292455,5688067,0.051415534
+2022,Statewide,ED Visit,Sex,Male,Substance Use Disorders,315555,5688067,0.055476667
+2022,Statewide,ED Visit,Funding Source,All Other Payers,All Other Diagnoses,141573,147790,0.957933554
+2022,Statewide,ED Visit,Funding Source,All Other Payers,Co-Occuring Disorders,407,147790,0.002753908
+2022,Statewide,ED Visit,Funding Source,All Other Payers,Mental Health Disorders,3471,147790,0.023486028
+2022,Statewide,ED Visit,Funding Source,All Other Payers,Substance Use Disorders,2339,147790,0.015826511
+2022,Statewide,ED Visit,Funding Source,Medi-Cal,All Other Diagnoses,4756324,5413359,0.878627115
+2022,Statewide,ED Visit,Funding Source,Medi-Cal,Co-Occuring Disorders,95607,5413359,0.017661308
+2022,Statewide,ED Visit,Funding Source,Medi-Cal,Mental Health Disorders,307138,5413359,0.056737046
+2022,Statewide,ED Visit,Funding Source,Medi-Cal,Substance Use Disorders,254290,5413359,0.046974531
+2022,Statewide,ED Visit,Funding Source,Medicare,All Other Diagnoses,2032530,2292718,0.886515481
+2022,Statewide,ED Visit,Funding Source,Medicare,Co-Occuring Disorders,23615,2292718,0.010300002
+2022,Statewide,ED Visit,Funding Source,Medicare,Mental Health Disorders,180705,2292718,0.078816933
+2022,Statewide,ED Visit,Funding Source,Medicare,Substance Use Disorders,55868,2292718,0.024367585
+2022,Statewide,ED Visit,Funding Source,Other Government,All Other Diagnoses,211399,241599,0.874999483
+2022,Statewide,ED Visit,Funding Source,Other Government,Co-Occuring Disorders,3463,241599,0.014333669
+2022,Statewide,ED Visit,Funding Source,Other Government,Mental Health Disorders,14937,241599,0.061825587
+2022,Statewide,ED Visit,Funding Source,Other Government,Substance Use Disorders,11800,241599,0.048841262
+2022,Statewide,ED Visit,Funding Source,Private Health Insurance,All Other Diagnoses,3188884,3515797,0.907015963
+2022,Statewide,ED Visit,Funding Source,Private Health Insurance,Co-Occuring Disorders,30573,3515797,0.008695895
+2022,Statewide,ED Visit,Funding Source,Private Health Insurance,Mental Health Disorders,203118,3515797,0.05777296
+2022,Statewide,ED Visit,Funding Source,Private Health Insurance,Substance Use Disorders,93222,3515797,0.026515183
+2022,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,All Other Diagnoses,570668,665545,0.857444651
+2022,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Co-Occuring Disorders,11273,665545,0.016937998
+2022,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Mental Health Disorders,32248,665545,0.048453523
+2022,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Substance Use Disorders,51356,665545,0.077163828
+2022,Statewide,ED Visit,Race,American Indian/Alaska Native,All Other Diagnoses,34889,41332,0.844115939
+2022,Statewide,ED Visit,Race,American Indian/Alaska Native,Co-Occuring Disorders,874,41332,0.021145843
+2022,Statewide,ED Visit,Race,American Indian/Alaska Native,Mental Health Disorders,2758,41332,0.066727959
+2022,Statewide,ED Visit,Race,American Indian/Alaska Native,Substance Use Disorders,2811,41332,0.068010258
+2022,Statewide,ED Visit,Race,Asian,All Other Diagnoses,705335,754396,0.934966516
+2022,Statewide,ED Visit,Race,Asian,Co-Occuring Disorders,3580,754396,0.004745518
+2022,Statewide,ED Visit,Race,Asian,Mental Health Disorders,35017,754396,0.046417266
+2022,Statewide,ED Visit,Race,Asian,Substance Use Disorders,10464,754396,0.013870699
+2022,Statewide,ED Visit,Race,Black,All Other Diagnoses,1057949,1228824,0.860944285
+2022,Statewide,ED Visit,Race,Black,Co-Occuring Disorders,24199,1228824,0.019692812
+2022,Statewide,ED Visit,Race,Black,Mental Health Disorders,88044,1228824,0.071648991
+2022,Statewide,ED Visit,Race,Black,Substance Use Disorders,58632,1228824,0.047713912
+2022,Statewide,ED Visit,Race,Hispanic,All Other Diagnoses,4874678,5350350,0.911095162
+2022,Statewide,ED Visit,Race,Hispanic,Co-Occuring Disorders,50988,5350350,0.009529844
+2022,Statewide,ED Visit,Race,Hispanic,Mental Health Disorders,252945,5350350,0.047276346
+2022,Statewide,ED Visit,Race,Hispanic,Substance Use Disorders,171739,5350350,0.032098648
+2022,Statewide,ED Visit,Race,Multiracial,All Other Diagnoses,102981,119930,0.858675894
+2022,Statewide,ED Visit,Race,Multiracial,Co-Occuring Disorders,2427,119930,0.020236805
+2022,Statewide,ED Visit,Race,Multiracial,Mental Health Disorders,9108,119930,0.075944301
+2022,Statewide,ED Visit,Race,Multiracial,Substance Use Disorders,5414,119930,0.045143
+2022,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,All Other Diagnoses,57040,61574,0.926365024
+2022,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Co-Occuring Disorders,468,61574,0.007600611
+2022,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Mental Health Disorders,2706,61574,0.043947121
+2022,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Substance Use Disorders,1360,61574,0.022087245
+2022,Statewide,ED Visit,Race,Other Race,All Other Diagnoses,520028,580574,0.895713552
+2022,Statewide,ED Visit,Race,Other Race,Co-Occuring Disorders,7489,580574,0.012899303
+2022,Statewide,ED Visit,Race,Other Race,Mental Health Disorders,32296,580574,0.055627706
+2022,Statewide,ED Visit,Race,Other Race,Substance Use Disorders,20761,580574,0.035759438
+2022,Statewide,ED Visit,Race,Unknown/Invalid,All Other Diagnoses,123455,140932,0.875989839
+2022,Statewide,ED Visit,Race,Unknown/Invalid,Co-Occuring Disorders,2092,140932,0.014844038
+2022,Statewide,ED Visit,Race,Unknown/Invalid,Mental Health Disorders,8382,140932,0.059475492
+2022,Statewide,ED Visit,Race,Unknown/Invalid,Substance Use Disorders,7003,140932,0.049690631
+2022,Statewide,ED Visit,Race,White,All Other Diagnoses,3427985,4002130,0.856540142
+2022,Statewide,ED Visit,Race,White,Co-Occuring Disorders,72857,4002130,0.018204556
+2022,Statewide,ED Visit,Race,White,Mental Health Disorders,310502,4002130,0.077584186
+2022,Statewide,ED Visit,Race,White,Substance Use Disorders,190786,4002130,0.047671115
+2022,Statewide,ED Visit,Age,0 to 18,All Other Diagnoses,2649149,2750243,0.963241794
+2022,Statewide,ED Visit,Age,0 to 18,Co-Occuring Disorders,7170,2750243,0.002607042
+2022,Statewide,ED Visit,Age,0 to 18,Mental Health Disorders,74902,2750243,0.027234684
+2022,Statewide,ED Visit,Age,0 to 18,Substance Use Disorders,19022,2750243,0.00691648
+2022,Statewide,ED Visit,Age,19 to 39,All Other Diagnoses,3233754,3808278,0.849138114
+2022,Statewide,ED Visit,Age,19 to 39,Co-Occuring Disorders,82159,3808278,0.021573793
+2022,Statewide,ED Visit,Age,19 to 39,Mental Health Disorders,274890,3808278,0.07218223
+2022,Statewide,ED Visit,Age,19 to 39,Substance Use Disorders,217475,3808278,0.057105863
+2022,Statewide,ED Visit,Age,40 to 59,All Other Diagnoses,2437900,2864253,0.851146878
+2022,Statewide,ED Visit,Age,40 to 59,Co-Occuring Disorders,56173,2864253,0.019611745
+2022,Statewide,ED Visit,Age,40 to 59,Mental Health Disorders,211173,2864253,0.073727077
+2022,Statewide,ED Visit,Age,40 to 59,Substance Use Disorders,159007,2864253,0.0555143
+2022,Statewide,ED Visit,Age,60+,All Other Diagnoses,2582884,2856027,0.904362599
+2022,Statewide,ED Visit,Age,60+,Co-Occuring Disorders,19412,2856027,0.006796855
+2022,Statewide,ED Visit,Age,60+,Mental Health Disorders,180700,2856027,0.06326971
+2022,Statewide,ED Visit,Age,60+,Substance Use Disorders,73031,2856027,0.025570837
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,Mood disorders,362479,,
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,Anxiety disorders,440748,,
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,Adjustment disorders,66147,,
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,"Intentional self-harm, suicidal ideation, and suicide attempts",142058,,
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,Schizophrenia and other psychotic disorders,174721,,
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,Personality disorders,9509,,
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,Impulse control disorders not elsewhere classified,8065,,
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,Miscellaneous mental health conditions,29712,,
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,Alcohol-related disorders,274659,,
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,Cannabis-related disorders,143562,,
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,Opioid-related disorders,80653,,
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,Stimulant-related disorders,157132,,
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,Sedative-related disorders,9684,,
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,Hallucinogen-related disorders,4265,,
+2022,Statewide,ED Visit,MH Category,All MBD Discharges,Miscellaneous substance-related disorders,54092,,
+2023,Statewide,Inpatient,DX Category,All Discharges,All Other Diagnoses,2577264,3653778,0.70536962
+2023,Statewide,Inpatient,DX Category,All Discharges,Co-Occuring Disorders,243251,3653778,0.0665752
+2023,Statewide,Inpatient,DX Category,All Discharges,Mental Health Disorders,575912,3653778,0.157620961
+2023,Statewide,Inpatient,DX Category,All Discharges,Substance Use Disorders,257351,3653778,0.070434219
+2023,Statewide,Inpatient,Sex,Female,All Other Diagnoses,1443731,1983471,0.727881073
+2023,Statewide,Inpatient,Sex,Female,Co-Occuring Disorders,102185,1983471,0.051518273
+2023,Statewide,Inpatient,Sex,Female,Mental Health Disorders,363856,1983471,0.183444074
+2023,Statewide,Inpatient,Sex,Female,Substance Use Disorders,73699,1983471,0.037156581
+2023,Statewide,Inpatient,Sex,Male,All Other Diagnoses,1133259,1669868,0.678651846
+2023,Statewide,Inpatient,Sex,Male,Co-Occuring Disorders,141022,1669868,0.084450987
+2023,Statewide,Inpatient,Sex,Male,Mental Health Disorders,211973,1669868,0.126939974
+2023,Statewide,Inpatient,Sex,Male,Substance Use Disorders,183614,1669868,0.109957194
+2023,Statewide,Inpatient,Funding Source,All Other Payers,All Other Diagnoses,22980,31053,0.740025118
+2023,Statewide,Inpatient,Funding Source,All Other Payers,Co-Occuring Disorders,1169,31053,0.037645316
+2023,Statewide,Inpatient,Funding Source,All Other Payers,Mental Health Disorders,4981,31053,0.160403182
+2023,Statewide,Inpatient,Funding Source,All Other Payers,Substance Use Disorders,1923,31053,0.061926384
+2023,Statewide,Inpatient,Funding Source,Medi-Cal,All Other Diagnoses,757340,1145828,0.660954349
+2023,Statewide,Inpatient,Funding Source,Medi-Cal,Co-Occuring Disorders,115519,1145828,0.100817051
+2023,Statewide,Inpatient,Funding Source,Medi-Cal,Mental Health Disorders,140201,1145828,0.122357806
+2023,Statewide,Inpatient,Funding Source,Medi-Cal,Substance Use Disorders,132768,1145828,0.115870794
+2023,Statewide,Inpatient,Funding Source,Medicare,All Other Diagnoses,920815,1324430,0.695253807
+2023,Statewide,Inpatient,Funding Source,Medicare,Co-Occuring Disorders,57192,1324430,0.04318235
+2023,Statewide,Inpatient,Funding Source,Medicare,Mental Health Disorders,278227,1324430,0.210073013
+2023,Statewide,Inpatient,Funding Source,Medicare,Substance Use Disorders,68196,1324430,0.05149083
+2023,Statewide,Inpatient,Funding Source,Other Government,All Other Diagnoses,63332,104990,0.603219354
+2023,Statewide,Inpatient,Funding Source,Other Government,Co-Occuring Disorders,16020,104990,0.152585961
+2023,Statewide,Inpatient,Funding Source,Other Government,Mental Health Disorders,19343,104990,0.184236594
+2023,Statewide,Inpatient,Funding Source,Other Government,Substance Use Disorders,6295,104990,0.059958091
+2023,Statewide,Inpatient,Funding Source,Private Health Insurance,All Other Diagnoses,773468,993993,0.778142301
+2023,Statewide,Inpatient,Funding Source,Private Health Insurance,Co-Occuring Disorders,49665,993993,0.049965141
+2023,Statewide,Inpatient,Funding Source,Private Health Insurance,Mental Health Disorders,129207,993993,0.129987837
+2023,Statewide,Inpatient,Funding Source,Private Health Insurance,Substance Use Disorders,41653,993993,0.041904722
+2023,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,All Other Diagnoses,38437,52394,0.733614536
+2023,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Co-Occuring Disorders,3659,52394,0.069836241
+2023,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Mental Health Disorders,3845,52394,0.073386266
+2023,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Substance Use Disorders,6453,52394,0.123162958
+2023,Statewide,Inpatient,Race,American Indian/Alaska Native,All Other Diagnoses,6996,11561,0.605137964
+2023,Statewide,Inpatient,Race,American Indian/Alaska Native,Co-Occuring Disorders,1331,11561,0.115128449
+2023,Statewide,Inpatient,Race,American Indian/Alaska Native,Mental Health Disorders,1903,11561,0.164605138
+2023,Statewide,Inpatient,Race,American Indian/Alaska Native,Substance Use Disorders,1331,11561,0.115128449
+2023,Statewide,Inpatient,Race,Asian,All Other Diagnoses,294229,342572,0.85888222
+2023,Statewide,Inpatient,Race,Asian,Co-Occuring Disorders,5720,342572,0.01669722
+2023,Statewide,Inpatient,Race,Asian,Mental Health Disorders,34844,342572,0.101712925
+2023,Statewide,Inpatient,Race,Asian,Substance Use Disorders,7779,342572,0.022707635
+2023,Statewide,Inpatient,Race,Black,All Other Diagnoses,183340,298541,0.614120004
+2023,Statewide,Inpatient,Race,Black,Co-Occuring Disorders,30917,298541,0.103560315
+2023,Statewide,Inpatient,Race,Black,Mental Health Disorders,52335,298541,0.175302555
+2023,Statewide,Inpatient,Race,Black,Substance Use Disorders,31949,298541,0.107017127
+2023,Statewide,Inpatient,Race,Hispanic,All Other Diagnoses,959545,1259899,0.7616047
+2023,Statewide,Inpatient,Race,Hispanic,Co-Occuring Disorders,66231,1259899,0.0525685
+2023,Statewide,Inpatient,Race,Hispanic,Mental Health Disorders,144661,1259899,0.114819521
+2023,Statewide,Inpatient,Race,Hispanic,Substance Use Disorders,89462,1259899,0.071007279
+2023,Statewide,Inpatient,Race,Multiracial,All Other Diagnoses,30191,43926,0.68731503
+2023,Statewide,Inpatient,Race,Multiracial,Co-Occuring Disorders,3676,43926,0.0836862
+2023,Statewide,Inpatient,Race,Multiracial,Mental Health Disorders,7120,43926,0.162090789
+2023,Statewide,Inpatient,Race,Multiracial,Substance Use Disorders,2939,43926,0.066907982
+2023,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,All Other Diagnoses,17105,20889,0.818852027
+2023,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Co-Occuring Disorders,647,20889,0.03097324
+2023,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Mental Health Disorders,2215,20889,0.10603667
+2023,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Substance Use Disorders,922,20889,0.044138063
+2023,Statewide,Inpatient,Race,Other Race,All Other Diagnoses,124141,178436,0.695717232
+2023,Statewide,Inpatient,Race,Other Race,Co-Occuring Disorders,13609,178436,0.076268242
+2023,Statewide,Inpatient,Race,Other Race,Mental Health Disorders,30376,178436,0.170234706
+2023,Statewide,Inpatient,Race,Other Race,Substance Use Disorders,10310,178436,0.05777982
+2023,Statewide,Inpatient,Race,Unknown/Invalid,All Other Diagnoses,27480,39122,0.702418077
+2023,Statewide,Inpatient,Race,Unknown/Invalid,Co-Occuring Disorders,3088,39122,0.07893257
+2023,Statewide,Inpatient,Race,Unknown/Invalid,Mental Health Disorders,5954,39122,0.152190583
+2023,Statewide,Inpatient,Race,Unknown/Invalid,Substance Use Disorders,2600,39122,0.06645877
+2023,Statewide,Inpatient,Race,White,All Other Diagnoses,934237,1458832,0.640400677
+2023,Statewide,Inpatient,Race,White,Co-Occuring Disorders,118032,1458832,0.080908563
+2023,Statewide,Inpatient,Race,White,Mental Health Disorders,296504,1458832,0.20324753
+2023,Statewide,Inpatient,Race,White,Substance Use Disorders,110059,1458832,0.075443231
+2023,Statewide,Inpatient,Age,0 to 18,All Other Diagnoses,556970,606170,0.91883465
+2023,Statewide,Inpatient,Age,0 to 18,Co-Occuring Disorders,10832,606170,0.017869575
+2023,Statewide,Inpatient,Age,0 to 18,Mental Health Disorders,35873,606170,0.059179768
+2023,Statewide,Inpatient,Age,0 to 18,Substance Use Disorders,2495,606170,0.004116007
+2023,Statewide,Inpatient,Age,19 to 39,All Other Diagnoses,520218,786416,0.661504852
+2023,Statewide,Inpatient,Age,19 to 39,Co-Occuring Disorders,88917,786416,0.113066113
+2023,Statewide,Inpatient,Age,19 to 39,Mental Health Disorders,117046,786416,0.148834713
+2023,Statewide,Inpatient,Age,19 to 39,Substance Use Disorders,60235,786416,0.076594322
+2023,Statewide,Inpatient,Age,40 to 59,All Other Diagnoses,366416,667365,0.549048871
+2023,Statewide,Inpatient,Age,40 to 59,Co-Occuring Disorders,84694,667365,0.126908064
+2023,Statewide,Inpatient,Age,40 to 59,Mental Health Disorders,119118,667365,0.178490032
+2023,Statewide,Inpatient,Age,40 to 59,Substance Use Disorders,97137,667365,0.145553033
+2023,Statewide,Inpatient,Age,60+,All Other Diagnoses,1133551,1593594,0.711317312
+2023,Statewide,Inpatient,Age,60+,Co-Occuring Disorders,58764,1593594,0.036875139
+2023,Statewide,Inpatient,Age,60+,Mental Health Disorders,303848,1593594,0.190668389
+2023,Statewide,Inpatient,Age,60+,Substance Use Disorders,97431,1593594,0.061139161
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,Mood disorders,490178,,
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,Anxiety disorders,373750,,
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,Adjustment disorders,78475,,
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,"Intentional self-harm, suicidal ideation, and suicide attempts",131404,,
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,Schizophrenia and other psychotic disorders,169776,,
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,Personality disorders,14732,,
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,Impulse control disorders not elsewhere classified,7920,,
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,Miscellaneous mental health conditions,57654,,
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,Alcohol-related disorders,247109,,
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,Cannabis-related disorders,105968,,
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,Opioid-related disorders,91564,,
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,Stimulant-related disorders,165316,,
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,Sedative-related disorders,17570,,
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,Hallucinogen-related disorders,4361,,
+2023,Statewide,Inpatient,MH Category,All MBD Discharges,Miscellaneous substance-related disorders,39732,,
+2023,Statewide,ED Visit,DX Category,All Discharges,All Other Diagnoses,11358923,12746434,0.891145163
+2023,Statewide,ED Visit,DX Category,All Discharges,Co-Occuring Disorders,161350,12746434,0.012658442
+2023,Statewide,ED Visit,DX Category,All Discharges,Mental Health Disorders,728841,12746434,0.057179993
+2023,Statewide,ED Visit,DX Category,All Discharges,Substance Use Disorders,497320,12746434,0.039016403
+2023,Statewide,ED Visit,Sex,Female,All Other Diagnoses,6195017,6863040,0.902663688
+2023,Statewide,ED Visit,Sex,Female,Co-Occuring Disorders,64395,6863040,0.009382868
+2023,Statewide,ED Visit,Sex,Female,Mental Health Disorders,439839,6863040,0.064088072
+2023,Statewide,ED Visit,Sex,Female,Substance Use Disorders,163789,6863040,0.023865372
+2023,Statewide,ED Visit,Sex,Male,All Other Diagnoses,5162288,5881261,0.877751897
+2023,Statewide,ED Visit,Sex,Male,Co-Occuring Disorders,96893,5881261,0.016474868
+2023,Statewide,ED Visit,Sex,Male,Mental Health Disorders,288742,5881261,0.049095254
+2023,Statewide,ED Visit,Sex,Male,Substance Use Disorders,333338,5881261,0.056677981
+2023,Statewide,ED Visit,Funding Source,All Other Payers,All Other Diagnoses,140586,146963,0.956608126
+2023,Statewide,ED Visit,Funding Source,All Other Payers,Co-Occuring Disorders,433,146963,0.00294632
+2023,Statewide,ED Visit,Funding Source,All Other Payers,Mental Health Disorders,3646,146963,0.024808966
+2023,Statewide,ED Visit,Funding Source,All Other Payers,Substance Use Disorders,2298,146963,0.015636589
+2023,Statewide,ED Visit,Funding Source,Medi-Cal,All Other Diagnoses,4982218,5652188,0.881467142
+2023,Statewide,ED Visit,Funding Source,Medi-Cal,Co-Occuring Disorders,93704,5652188,0.016578359
+2023,Statewide,ED Visit,Funding Source,Medi-Cal,Mental Health Disorders,303135,5652188,0.053631443
+2023,Statewide,ED Visit,Funding Source,Medi-Cal,Substance Use Disorders,273131,5652188,0.048323057
+2023,Statewide,ED Visit,Funding Source,Medicare,All Other Diagnoses,2198259,2463975,0.89215962
+2023,Statewide,ED Visit,Funding Source,Medicare,Co-Occuring Disorders,23494,2463975,0.009534999
+2023,Statewide,ED Visit,Funding Source,Medicare,Mental Health Disorders,180827,2463975,0.073388326
+2023,Statewide,ED Visit,Funding Source,Medicare,Substance Use Disorders,61395,2463975,0.024917055
+2023,Statewide,ED Visit,Funding Source,Other Government,All Other Diagnoses,197494,226969,0.87013645
+2023,Statewide,ED Visit,Funding Source,Other Government,Co-Occuring Disorders,3331,226969,0.014676013
+2023,Statewide,ED Visit,Funding Source,Other Government,Mental Health Disorders,14040,226969,0.061858668
+2023,Statewide,ED Visit,Funding Source,Other Government,Substance Use Disorders,12104,226969,0.053328869
+2023,Statewide,ED Visit,Funding Source,Private Health Insurance,All Other Diagnoses,3277041,3607121,0.908492119
+2023,Statewide,ED Visit,Funding Source,Private Health Insurance,Co-Occuring Disorders,31017,3607121,0.008598824
+2023,Statewide,ED Visit,Funding Source,Private Health Insurance,Mental Health Disorders,199461,3607121,0.055296454
+2023,Statewide,ED Visit,Funding Source,Private Health Insurance,Substance Use Disorders,99602,3607121,0.027612603
+2023,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,All Other Diagnoses,561258,646900,0.867611687
+2023,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Co-Occuring Disorders,9352,646900,0.014456639
+2023,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Mental Health Disorders,27614,646900,0.04268666
+2023,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Substance Use Disorders,48676,646900,0.075245015
+2023,Statewide,ED Visit,Race,American Indian/Alaska Native,All Other Diagnoses,36440,43044,0.846575597
+2023,Statewide,ED Visit,Race,American Indian/Alaska Native,Co-Occuring Disorders,877,43044,0.020374501
+2023,Statewide,ED Visit,Race,American Indian/Alaska Native,Mental Health Disorders,2696,43044,0.062633584
+2023,Statewide,ED Visit,Race,American Indian/Alaska Native,Substance Use Disorders,3031,43044,0.070416318
+2023,Statewide,ED Visit,Race,Asian,All Other Diagnoses,760175,811810,0.936395216
+2023,Statewide,ED Visit,Race,Asian,Co-Occuring Disorders,3535,811810,0.004354467
+2023,Statewide,ED Visit,Race,Asian,Mental Health Disorders,36175,811810,0.044560919
+2023,Statewide,ED Visit,Race,Asian,Substance Use Disorders,11925,811810,0.014689398
+2023,Statewide,ED Visit,Race,Black,All Other Diagnoses,1069070,1240350,0.861909945
+2023,Statewide,ED Visit,Race,Black,Co-Occuring Disorders,23048,1240350,0.018581852
+2023,Statewide,ED Visit,Race,Black,Mental Health Disorders,87383,1240350,0.070450276
+2023,Statewide,ED Visit,Race,Black,Substance Use Disorders,60849,1240350,0.049057927
+2023,Statewide,ED Visit,Race,Hispanic,All Other Diagnoses,5130710,5620184,0.912907834
+2023,Statewide,ED Visit,Race,Hispanic,Co-Occuring Disorders,51649,5620184,0.009189913
+2023,Statewide,ED Visit,Race,Hispanic,Mental Health Disorders,251801,5620184,0.044802982
+2023,Statewide,ED Visit,Race,Hispanic,Substance Use Disorders,186024,5620184,0.033099272
+2023,Statewide,ED Visit,Race,Multiracial,All Other Diagnoses,110515,128498,0.860052297
+2023,Statewide,ED Visit,Race,Multiracial,Co-Occuring Disorders,2467,128498,0.019198742
+2023,Statewide,ED Visit,Race,Multiracial,Mental Health Disorders,9881,128498,0.076896139
+2023,Statewide,ED Visit,Race,Multiracial,Substance Use Disorders,5635,128498,0.043852823
+2023,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,All Other Diagnoses,59538,64035,0.929772781
+2023,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Co-Occuring Disorders,482,64035,0.007527134
+2023,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Mental Health Disorders,2644,64035,0.04128992
+2023,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Substance Use Disorders,1371,64035,0.021410166
+2023,Statewide,ED Visit,Race,Other Race,All Other Diagnoses,538495,598834,0.899239188
+2023,Statewide,ED Visit,Race,Other Race,Co-Occuring Disorders,7085,598834,0.011831326
+2023,Statewide,ED Visit,Race,Other Race,Mental Health Disorders,31327,598834,0.052313329
+2023,Statewide,ED Visit,Race,Other Race,Substance Use Disorders,21927,598834,0.036616157
+2023,Statewide,ED Visit,Race,Unknown/Invalid,All Other Diagnoses,132162,150074,0.880645548
+2023,Statewide,ED Visit,Race,Unknown/Invalid,Co-Occuring Disorders,1945,150074,0.012960273
+2023,Statewide,ED Visit,Race,Unknown/Invalid,Mental Health Disorders,8242,150074,0.054919573
+2023,Statewide,ED Visit,Race,Unknown/Invalid,Substance Use Disorders,7725,150074,0.051474606
+2023,Statewide,ED Visit,Race,White,All Other Diagnoses,3521818,4089605,0.861163364
+2023,Statewide,ED Visit,Race,White,Co-Occuring Disorders,70262,4089605,0.017180632
+2023,Statewide,ED Visit,Race,White,Mental Health Disorders,298692,4089605,0.073036883
+2023,Statewide,ED Visit,Race,White,Substance Use Disorders,198833,4089605,0.048619121
+2023,Statewide,ED Visit,Age,0 to 18,All Other Diagnoses,2628601,2725753,0.964357739
+2023,Statewide,ED Visit,Age,0 to 18,Co-Occuring Disorders,7130,2725753,0.002615791
+2023,Statewide,ED Visit,Age,0 to 18,Mental Health Disorders,69335,2725753,0.025437008
+2023,Statewide,ED Visit,Age,0 to 18,Substance Use Disorders,20687,2725753,0.007589462
+2023,Statewide,ED Visit,Age,19 to 39,All Other Diagnoses,3333598,3907200,0.853193591
+2023,Statewide,ED Visit,Age,19 to 39,Co-Occuring Disorders,78407,3907200,0.020067312
+2023,Statewide,ED Visit,Age,19 to 39,Mental Health Disorders,267583,3907200,0.068484593
+2023,Statewide,ED Visit,Age,19 to 39,Substance Use Disorders,227612,3907200,0.058254505
+2023,Statewide,ED Visit,Age,40 to 59,All Other Diagnoses,2575652,3004779,0.857185171
+2023,Statewide,ED Visit,Age,40 to 59,Co-Occuring Disorders,55537,3004779,0.01848289
+2023,Statewide,ED Visit,Age,40 to 59,Mental Health Disorders,207827,3004779,0.069165486
+2023,Statewide,ED Visit,Age,40 to 59,Substance Use Disorders,165763,3004779,0.055166453
+2023,Statewide,ED Visit,Age,60+,All Other Diagnoses,2820422,3107424,0.907639897
+2023,Statewide,ED Visit,Age,60+,Co-Occuring Disorders,20219,3107424,0.006506676
+2023,Statewide,ED Visit,Age,60+,Mental Health Disorders,183995,3107424,0.059211424
+2023,Statewide,ED Visit,Age,60+,Substance Use Disorders,82788,3107424,0.026642003
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,Mood disorders,352801,,
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,Anxiety disorders,421051,,
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,Adjustment disorders,69328,,
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,"Intentional self-harm, suicidal ideation, and suicide attempts",136220,,
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,Schizophrenia and other psychotic disorders,168525,,
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,Personality disorders,10123,,
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,Impulse control disorders not elsewhere classified,7863,,
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,Miscellaneous mental health conditions,29474,,
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,Alcohol-related disorders,300222,,
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,Cannabis-related disorders,138386,,
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,Opioid-related disorders,87335,,
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,Stimulant-related disorders,152345,,
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,Sedative-related disorders,9626,,
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,Hallucinogen-related disorders,3864,,
+2023,Statewide,ED Visit,MH Category,All MBD Discharges,Miscellaneous substance-related disorders,60292,,
+2024,Statewide,Inpatient,DX Category,All Discharges,All Other Diagnoses,2641669,3738299,0.706650003
+2024,Statewide,Inpatient,DX Category,All Discharges,Co-Occuring Disorders,235389,3738299,0.062966873
+2024,Statewide,Inpatient,DX Category,All Discharges,Mental Health Disorders,607422,3738299,0.1624862
+2024,Statewide,Inpatient,DX Category,All Discharges,Substance Use Disorders,253819,3738299,0.067896923
+2024,Statewide,Inpatient,Sex,Female,All Other Diagnoses,1475396,2027752,0.727601798
+2024,Statewide,Inpatient,Sex,Female,Co-Occuring Disorders,98995,2027752,0.048820073
+2024,Statewide,Inpatient,Sex,Female,Mental Health Disorders,380435,2027752,0.187614166
+2024,Statewide,Inpatient,Sex,Female,Substance Use Disorders,72926,2027752,0.035963964
+2024,Statewide,Inpatient,Sex,Male,All Other Diagnoses,1165920,1710017,0.681817783
+2024,Statewide,Inpatient,Sex,Male,Co-Occuring Disorders,136349,1710017,0.079735465
+2024,Statewide,Inpatient,Sex,Male,Mental Health Disorders,226885,1710017,0.132679968
+2024,Statewide,Inpatient,Sex,Male,Substance Use Disorders,180863,1710017,0.105766785
+2024,Statewide,Inpatient,Funding Source,All Other Payers,All Other Diagnoses,24979,34025,0.734136664
+2024,Statewide,Inpatient,Funding Source,All Other Payers,Co-Occuring Disorders,1475,34025,0.043350478
+2024,Statewide,Inpatient,Funding Source,All Other Payers,Mental Health Disorders,5617,34025,0.165084497
+2024,Statewide,Inpatient,Funding Source,All Other Payers,Substance Use Disorders,1954,34025,0.057428362
+2024,Statewide,Inpatient,Funding Source,Medi-Cal,All Other Diagnoses,784217,1179121,0.665086111
+2024,Statewide,Inpatient,Funding Source,Medi-Cal,Co-Occuring Disorders,114631,1179121,0.097217334
+2024,Statewide,Inpatient,Funding Source,Medi-Cal,Mental Health Disorders,148906,1179121,0.126285598
+2024,Statewide,Inpatient,Funding Source,Medi-Cal,Substance Use Disorders,131367,1179121,0.111410958
+2024,Statewide,Inpatient,Funding Source,Medicare,All Other Diagnoses,962033,1384300,0.694959908
+2024,Statewide,Inpatient,Funding Source,Medicare,Co-Occuring Disorders,56636,1384300,0.040913097
+2024,Statewide,Inpatient,Funding Source,Medicare,Mental Health Disorders,296965,1384300,0.214523586
+2024,Statewide,Inpatient,Funding Source,Medicare,Substance Use Disorders,68666,1384300,0.04960341
+2024,Statewide,Inpatient,Funding Source,Other Government,All Other Diagnoses,64669,109134,0.592565104
+2024,Statewide,Inpatient,Funding Source,Other Government,Co-Occuring Disorders,15678,109134,0.143658255
+2024,Statewide,Inpatient,Funding Source,Other Government,Mental Health Disorders,22368,109134,0.204959041
+2024,Statewide,Inpatient,Funding Source,Other Government,Substance Use Disorders,6419,109134,0.0588176
+2024,Statewide,Inpatient,Funding Source,Private Health Insurance,All Other Diagnoses,766249,978574,0.783026118
+2024,Statewide,Inpatient,Funding Source,Private Health Insurance,Co-Occuring Disorders,43427,978574,0.04437784
+2024,Statewide,Inpatient,Funding Source,Private Health Insurance,Mental Health Disorders,129648,978574,0.132486659
+2024,Statewide,Inpatient,Funding Source,Private Health Insurance,Substance Use Disorders,39250,978574,0.040109384
+2024,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,All Other Diagnoses,38957,52445,0.742816284
+2024,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Co-Occuring Disorders,3522,52445,0.067156068
+2024,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Mental Health Disorders,3833,52445,0.07308609
+2024,Statewide,Inpatient,Funding Source,Self-Pay or Uninsured,Substance Use Disorders,6133,52445,0.116941558
+2024,Statewide,Inpatient,Race,American Indian/Alaska Native,All Other Diagnoses,7072,11742,0.602282405
+2024,Statewide,Inpatient,Race,American Indian/Alaska Native,Co-Occuring Disorders,1232,11742,0.1049225
+2024,Statewide,Inpatient,Race,American Indian/Alaska Native,Mental Health Disorders,2042,11742,0.173905638
+2024,Statewide,Inpatient,Race,American Indian/Alaska Native,Substance Use Disorders,1396,11742,0.118889457
+2024,Statewide,Inpatient,Race,Asian,All Other Diagnoses,305041,355067,0.859108281
+2024,Statewide,Inpatient,Race,Asian,Co-Occuring Disorders,5770,355067,0.016250454
+2024,Statewide,Inpatient,Race,Asian,Mental Health Disorders,36547,355067,0.10292987
+2024,Statewide,Inpatient,Race,Asian,Substance Use Disorders,7709,355067,0.021711395
+2024,Statewide,Inpatient,Race,Black,All Other Diagnoses,186018,301343,0.617296569
+2024,Statewide,Inpatient,Race,Black,Co-Occuring Disorders,29676,301343,0.098479142
+2024,Statewide,Inpatient,Race,Black,Mental Health Disorders,54816,301343,0.181905669
+2024,Statewide,Inpatient,Race,Black,Substance Use Disorders,30833,301343,0.10231862
+2024,Statewide,Inpatient,Race,Hispanic,All Other Diagnoses,1010502,1332235,0.758501316
+2024,Statewide,Inpatient,Race,Hispanic,Co-Occuring Disorders,68670,1332235,0.05154496
+2024,Statewide,Inpatient,Race,Hispanic,Mental Health Disorders,160760,1332235,0.120669401
+2024,Statewide,Inpatient,Race,Hispanic,Substance Use Disorders,92303,1332235,0.069284323
+2024,Statewide,Inpatient,Race,Multiracial,All Other Diagnoses,30635,44250,0.692316384
+2024,Statewide,Inpatient,Race,Multiracial,Co-Occuring Disorders,3473,44250,0.078485876
+2024,Statewide,Inpatient,Race,Multiracial,Mental Health Disorders,7318,44250,0.165378531
+2024,Statewide,Inpatient,Race,Multiracial,Substance Use Disorders,2824,44250,0.063819209
+2024,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,All Other Diagnoses,17632,21508,0.819787986
+2024,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Co-Occuring Disorders,593,21508,0.027571136
+2024,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Mental Health Disorders,2370,21508,0.110191557
+2024,Statewide,Inpatient,Race,Native Hawaiian or Other Pacific Islande,Substance Use Disorders,913,21508,0.042449321
+2024,Statewide,Inpatient,Race,Other Race,All Other Diagnoses,121782,175988,0.691990363
+2024,Statewide,Inpatient,Race,Other Race,Co-Occuring Disorders,12982,175988,0.073766393
+2024,Statewide,Inpatient,Race,Other Race,Mental Health Disorders,31372,175988,0.178262154
+2024,Statewide,Inpatient,Race,Other Race,Substance Use Disorders,9852,175988,0.05598109
+2024,Statewide,Inpatient,Race,Unknown/Invalid,All Other Diagnoses,34041,45745,0.744146901
+2024,Statewide,Inpatient,Race,Unknown/Invalid,Co-Occuring Disorders,2880,45745,0.0629577
+2024,Statewide,Inpatient,Race,Unknown/Invalid,Mental Health Disorders,6440,45745,0.140780413
+2024,Statewide,Inpatient,Race,Unknown/Invalid,Substance Use Disorders,2384,45745,0.052114985
+2024,Statewide,Inpatient,Race,White,All Other Diagnoses,928946,1450421,0.640466458
+2024,Statewide,Inpatient,Race,White,Co-Occuring Disorders,110113,1450421,0.075917958
+2024,Statewide,Inpatient,Race,White,Mental Health Disorders,305757,1450421,0.21080569
+2024,Statewide,Inpatient,Race,White,Substance Use Disorders,105605,1450421,0.072809895
+2024,Statewide,Inpatient,Age,0 to 18,All Other Diagnoses,558720,606857,0.920678183
+2024,Statewide,Inpatient,Age,0 to 18,Co-Occuring Disorders,9515,606857,0.015679147
+2024,Statewide,Inpatient,Age,0 to 18,Mental Health Disorders,36292,606857,0.059803216
+2024,Statewide,Inpatient,Age,0 to 18,Substance Use Disorders,2330,606857,0.003839455
+2024,Statewide,Inpatient,Age,19 to 39,All Other Diagnoses,529577,795867,0.665408919
+2024,Statewide,Inpatient,Age,19 to 39,Co-Occuring Disorders,84539,795867,0.106222522
+2024,Statewide,Inpatient,Age,19 to 39,Mental Health Disorders,123132,795867,0.154714293
+2024,Statewide,Inpatient,Age,19 to 39,Substance Use Disorders,58619,795867,0.073654266
+2024,Statewide,Inpatient,Age,40 to 59,All Other Diagnoses,375981,677168,0.555225587
+2024,Statewide,Inpatient,Age,40 to 59,Co-Occuring Disorders,81933,677168,0.120993609
+2024,Statewide,Inpatient,Age,40 to 59,Mental Health Disorders,123680,677168,0.182643007
+2024,Statewide,Inpatient,Age,40 to 59,Substance Use Disorders,95574,677168,0.141137797
+2024,Statewide,Inpatient,Age,60+,All Other Diagnoses,1177311,1658253,0.709970674
+2024,Statewide,Inpatient,Age,60+,Co-Occuring Disorders,59389,1658253,0.035814197
+2024,Statewide,Inpatient,Age,60+,Mental Health Disorders,324304,1658253,0.195569675
+2024,Statewide,Inpatient,Age,60+,Substance Use Disorders,97249,1658253,0.058645454
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,Mood disorders,504840,,
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,Anxiety disorders,387898,,
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,Adjustment disorders,81649,,
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,"Intentional self-harm, suicidal ideation, and suicide attempts",130149,,
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,Schizophrenia and other psychotic disorders,175722,,
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,Personality disorders,14969,,
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,Impulse control disorders not elsewhere classified,7668,,
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,Miscellaneous mental health conditions,58343,,
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,Alcohol-related disorders,242469,,
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,Cannabis-related disorders,94823,,
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,Opioid-related disorders,88076,,
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,Stimulant-related disorders,159579,,
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,Sedative-related disorders,16895,,
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,Hallucinogen-related disorders,4048,,
+2024,Statewide,Inpatient,MH Category,All MBD Discharges,Miscellaneous substance-related disorders,39091,,
+2024,Statewide,ED Visit,DX Category,All Discharges,All Other Diagnoses,11775382,13307457,0.884870941
+2024,Statewide,ED Visit,DX Category,All Discharges,Co-Occuring Disorders,170722,13307457,0.012829048
+2024,Statewide,ED Visit,DX Category,All Discharges,Mental Health Disorders,862811,13307457,0.064836655
+2024,Statewide,ED Visit,DX Category,All Discharges,Substance Use Disorders,498542,13307457,0.037463356
+2024,Statewide,ED Visit,Sex,Female,All Other Diagnoses,6418561,7185401,0.893278051
+2024,Statewide,ED Visit,Sex,Female,Co-Occuring Disorders,70400,7185401,0.009797644
+2024,Statewide,ED Visit,Sex,Female,Mental Health Disorders,533683,7185401,0.074273238
+2024,Statewide,ED Visit,Sex,Female,Substance Use Disorders,162757,7185401,0.022651067
+2024,Statewide,ED Visit,Sex,Male,All Other Diagnoses,5354933,6119539,0.875054967
+2024,Statewide,ED Visit,Sex,Male,Co-Occuring Disorders,100271,6119539,0.016385385
+2024,Statewide,ED Visit,Sex,Male,Mental Health Disorders,328713,6119539,0.053715321
+2024,Statewide,ED Visit,Sex,Male,Substance Use Disorders,335622,6119539,0.054844327
+2024,Statewide,ED Visit,Funding Source,All Other Payers,All Other Diagnoses,143198,151388,0.9459006
+2024,Statewide,ED Visit,Funding Source,All Other Payers,Co-Occuring Disorders,567,151388,0.003745343
+2024,Statewide,ED Visit,Funding Source,All Other Payers,Mental Health Disorders,5192,151388,0.034295981
+2024,Statewide,ED Visit,Funding Source,All Other Payers,Substance Use Disorders,2431,151388,0.016058076
+2024,Statewide,ED Visit,Funding Source,Medi-Cal,All Other Diagnoses,5175473,5865487,0.882360322
+2024,Statewide,ED Visit,Funding Source,Medi-Cal,Co-Occuring Disorders,94816,5865487,0.016165069
+2024,Statewide,ED Visit,Funding Source,Medi-Cal,Mental Health Disorders,324121,5865487,0.055259009
+2024,Statewide,ED Visit,Funding Source,Medi-Cal,Substance Use Disorders,271077,5865487,0.0462156
+2024,Statewide,ED Visit,Funding Source,Medicare,All Other Diagnoses,2314328,2641021,0.876300491
+2024,Statewide,ED Visit,Funding Source,Medicare,Co-Occuring Disorders,27354,2641021,0.010357358
+2024,Statewide,ED Visit,Funding Source,Medicare,Mental Health Disorders,236565,2641021,0.089573313
+2024,Statewide,ED Visit,Funding Source,Medicare,Substance Use Disorders,62774,2641021,0.023768838
+2024,Statewide,ED Visit,Funding Source,Other Government,All Other Diagnoses,212382,242973,0.874097122
+2024,Statewide,ED Visit,Funding Source,Other Government,Co-Occuring Disorders,3350,242973,0.01378754
+2024,Statewide,ED Visit,Funding Source,Other Government,Mental Health Disorders,14688,242973,0.060451161
+2024,Statewide,ED Visit,Funding Source,Other Government,Substance Use Disorders,12553,242973,0.051664177
+2024,Statewide,ED Visit,Funding Source,Private Health Insurance,All Other Diagnoses,3303042,3685975,0.896110798
+2024,Statewide,ED Visit,Funding Source,Private Health Insurance,Co-Occuring Disorders,34574,3685975,0.009379879
+2024,Statewide,ED Visit,Funding Source,Private Health Insurance,Mental Health Disorders,249907,3685975,0.067799429
+2024,Statewide,ED Visit,Funding Source,Private Health Insurance,Substance Use Disorders,98452,3685975,0.026709894
+2024,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,All Other Diagnoses,623291,716557,0.869841478
+2024,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Co-Occuring Disorders,10005,716557,0.013962602
+2024,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Mental Health Disorders,32163,716557,0.044885473
+2024,Statewide,ED Visit,Funding Source,Self-Pay or Uninsured,Substance Use Disorders,51098,716557,0.071310447
+2024,Statewide,ED Visit,Race,American Indian/Alaska Native,All Other Diagnoses,38752,45715,0.847686755
+2024,Statewide,ED Visit,Race,American Indian/Alaska Native,Co-Occuring Disorders,914,45715,0.019993438
+2024,Statewide,ED Visit,Race,American Indian/Alaska Native,Mental Health Disorders,3180,45715,0.069561413
+2024,Statewide,ED Visit,Race,American Indian/Alaska Native,Substance Use Disorders,2869,45715,0.062758394
+2024,Statewide,ED Visit,Race,Asian,All Other Diagnoses,788826,851325,0.926586204
+2024,Statewide,ED Visit,Race,Asian,Co-Occuring Disorders,4077,851325,0.004789005
+2024,Statewide,ED Visit,Race,Asian,Mental Health Disorders,46421,851325,0.054527942
+2024,Statewide,ED Visit,Race,Asian,Substance Use Disorders,12001,851325,0.014096849
+2024,Statewide,ED Visit,Race,Black,All Other Diagnoses,1071117,1259028,0.850749149
+2024,Statewide,ED Visit,Race,Black,Co-Occuring Disorders,23701,1259028,0.01882484
+2024,Statewide,ED Visit,Race,Black,Mental Health Disorders,104009,1259028,0.082610554
+2024,Statewide,ED Visit,Race,Black,Substance Use Disorders,60201,1259028,0.047815458
+2024,Statewide,ED Visit,Race,Hispanic,All Other Diagnoses,5507204,6063871,0.908199399
+2024,Statewide,ED Visit,Race,Hispanic,Co-Occuring Disorders,57668,6063871,0.009510097
+2024,Statewide,ED Visit,Race,Hispanic,Mental Health Disorders,300093,6063871,0.049488685
+2024,Statewide,ED Visit,Race,Hispanic,Substance Use Disorders,198906,6063871,0.032801819
+2024,Statewide,ED Visit,Race,Multiracial,All Other Diagnoses,115572,135950,0.850106657
+2024,Statewide,ED Visit,Race,Multiracial,Co-Occuring Disorders,2467,135950,0.018146377
+2024,Statewide,ED Visit,Race,Multiracial,Mental Health Disorders,12335,135950,0.090731887
+2024,Statewide,ED Visit,Race,Multiracial,Substance Use Disorders,5576,135950,0.041015079
+2024,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,All Other Diagnoses,61224,66515,0.920454033
+2024,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Co-Occuring Disorders,442,66515,0.006645118
+2024,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Mental Health Disorders,3519,66515,0.05290536
+2024,Statewide,ED Visit,Race,Native Hawaiian or Other Pacific Islande,Substance Use Disorders,1330,66515,0.01999549
+2024,Statewide,ED Visit,Race,Other Race,All Other Diagnoses,531785,591695,0.898748511
+2024,Statewide,ED Visit,Race,Other Race,Co-Occuring Disorders,7051,591695,0.011916612
+2024,Statewide,ED Visit,Race,Other Race,Mental Health Disorders,32160,591695,0.054352327
+2024,Statewide,ED Visit,Race,Other Race,Substance Use Disorders,20699,591695,0.03498255
+2024,Statewide,ED Visit,Race,Unknown/Invalid,All Other Diagnoses,146501,165520,0.885095457
+2024,Statewide,ED Visit,Race,Unknown/Invalid,Co-Occuring Disorders,2077,165520,0.012548333
+2024,Statewide,ED Visit,Race,Unknown/Invalid,Mental Health Disorders,9541,165520,0.057642581
+2024,Statewide,ED Visit,Race,Unknown/Invalid,Substance Use Disorders,7401,165520,0.04471363
+2024,Statewide,ED Visit,Race,White,All Other Diagnoses,3514401,4127838,0.851390244
+2024,Statewide,ED Visit,Race,White,Co-Occuring Disorders,72325,4127838,0.017521279
+2024,Statewide,ED Visit,Race,White,Mental Health Disorders,351553,4127838,0.085166375
+2024,Statewide,ED Visit,Race,White,Substance Use Disorders,189559,4127838,0.045922103
+2024,Statewide,ED Visit,Age,0 to 18,All Other Diagnoses,2646939,2744969,0.964287393
+2024,Statewide,ED Visit,Age,0 to 18,Co-Occuring Disorders,6670,2744969,0.0024299
+2024,Statewide,ED Visit,Age,0 to 18,Mental Health Disorders,71729,2744969,0.026131078
+2024,Statewide,ED Visit,Age,0 to 18,Substance Use Disorders,19631,2744969,0.007151629
+2024,Statewide,ED Visit,Age,19 to 39,All Other Diagnoses,3477674,4082032,0.851946776
+2024,Statewide,ED Visit,Age,19 to 39,Co-Occuring Disorders,79003,4082032,0.019353841
+2024,Statewide,ED Visit,Age,19 to 39,Mental Health Disorders,302651,4082032,0.074142241
+2024,Statewide,ED Visit,Age,19 to 39,Substance Use Disorders,222704,4082032,0.054557142
+2024,Statewide,ED Visit,Age,40 to 59,All Other Diagnoses,2663642,3133253,0.850120306
+2024,Statewide,ED Visit,Age,40 to 59,Co-Occuring Disorders,59754,3133253,0.019070915
+2024,Statewide,ED Visit,Age,40 to 59,Mental Health Disorders,241508,3133253,0.077078998
+2024,Statewide,ED Visit,Age,40 to 59,Substance Use Disorders,168349,3133253,0.053729782
+2024,Statewide,ED Visit,Age,60+,All Other Diagnoses,2986522,3345980,0.892570189
+2024,Statewide,ED Visit,Age,60+,Co-Occuring Disorders,25252,3345980,0.007546967
+2024,Statewide,ED Visit,Age,60+,Mental Health Disorders,246814,3345980,0.073764338
+2024,Statewide,ED Visit,Age,60+,Substance Use Disorders,87392,3345980,0.026118506
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,Mood disorders,465778,,
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,Anxiety disorders,466681,,
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,Adjustment disorders,87119,,
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,"Intentional self-harm, suicidal ideation, and suicide attempts",132651,,
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,Schizophrenia and other psychotic disorders,177176,,
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,Personality disorders,15880,,
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,Impulse control disorders not elsewhere classified,9679,,
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,Miscellaneous mental health conditions,34767,,
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,Alcohol-related disorders,324447,,
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,Cannabis-related disorders,129978,,
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,Opioid-related disorders,81989,,
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,Stimulant-related disorders,151135,,
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,Sedative-related disorders,10116,,
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,Hallucinogen-related disorders,3942,,
+2024,Statewide,ED Visit,MH Category,All MBD Discharges,Miscellaneous substance-related disorders,61672,,
