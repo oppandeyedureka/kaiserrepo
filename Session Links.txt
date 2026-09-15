@@ -115,3 +115,8 @@ https://www.datacamp.com/tutorial/k-fold-cross-validation
 
 TimeSeries Data
 https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page?ref=hackernoon.com
+
+Feature Eng
+https://mljourney.com/types-of-features-in-machine-learning-a-complete-guide-to-feature-classification-and-selection/
+https://www.geeksforgeeks.org/machine-learning/feature-selection-techniques-in-machine-learning/
+
