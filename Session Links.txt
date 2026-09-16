@@ -127,3 +127,7 @@ https://www.geeksforgeeks.org/machine-learning/performing-feature-selection-with
 https://www.geeksforgeeks.org/artificial-intelligence/bayesian-optimization-in-machine-learning/
 https://www.datacamp.com/tutorial/hyperparameter-tuning
 https://www.geeksforgeeks.org/machine-learning/optuna/
+
+Time Series Modelling
+https://apxml.com/courses/time-series-analysis-forecasting
+https://raw.githubusercontent.com/jbrownlee/Datasets/master/airline-passengers.csv
