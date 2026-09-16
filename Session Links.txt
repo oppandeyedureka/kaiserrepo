@@ -124,3 +124,5 @@ Hyper param tuning
 https://www.educba.com/hyperparameter-tuning/
 https://dzone.com/articles/hyperparameter-tuning-feature-engineering-ml
 https://www.geeksforgeeks.org/machine-learning/performing-feature-selection-with-gridsearchcv-in-sklearn/
+https://www.geeksforgeeks.org/artificial-intelligence/bayesian-optimization-in-machine-learning/
+https://www.datacamp.com/tutorial/hyperparameter-tuning
