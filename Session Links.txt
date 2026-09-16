@@ -120,3 +120,6 @@ Feature Eng
 https://mljourney.com/types-of-features-in-machine-learning-a-complete-guide-to-feature-classification-and-selection/
 https://www.geeksforgeeks.org/machine-learning/feature-selection-techniques-in-machine-learning/
 
+Hyper param tuning
+https://www.educba.com/hyperparameter-tuning/
+https://dzone.com/articles/hyperparameter-tuning-feature-engineering-ml
