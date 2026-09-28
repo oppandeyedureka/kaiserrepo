@@ -140,4 +140,4 @@ https://github.com/ageron/handson-ml3/tree/main
 https://www.deeplearning.ai/ai-notes/regularization/index.html
 https://techscribr.github.io/posts/regularization/
 https://theaisummer.com/regularization/
-
+https://machinelearningknowledge.com/keras-implementation-of-vgg16-architecture-from-scratch-with-dogs-vs-cat-data-set/
