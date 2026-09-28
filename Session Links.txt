@@ -131,3 +131,13 @@ https://www.geeksforgeeks.org/machine-learning/optuna/
 Time Series Modelling
 https://apxml.com/courses/time-series-analysis-forecasting
 https://raw.githubusercontent.com/jbrownlee/Datasets/master/airline-passengers.csv
+
+Neural Network Links
+https://www.tensorflow.org/
+https://keras.io/
+https://developers.google.com/machine-learning/
+https://github.com/ageron/handson-ml3/tree/main
+https://www.deeplearning.ai/ai-notes/regularization/index.html
+https://techscribr.github.io/posts/regularization/
+https://theaisummer.com/regularization/
+
