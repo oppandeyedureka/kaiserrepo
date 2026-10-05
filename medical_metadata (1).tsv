@@ -1,0 +1,18 @@
+Field_Name	Description	Data_Type	Example
+record_id	Unique record identifier	STRING	MED000001
+category	Diagnosis or Prescription	STRING	Diagnosis
+term	Medical term name	STRING	Hypertension
+abbreviation	Common abbreviation	STRING	HTN
+synonyms	Alternative names	STRING	High Blood Pressure
+icd10_code	ICD-10 diagnosis code	STRING	I10
+rxnorm_code	RxNorm medication code	STRING	860975
+snomed_ct	SNOMED CT identifier	STRING	38341003
+specialty	Associated medical specialty	STRING	Cardiology
+body_system	Related body system	STRING	Cardiovascular
+severity	Severity classification	STRING	Mild
+status	Active or inactive term	STRING	Active
+country	Country context	STRING	India
+language	Source language	STRING	English
+source	Reference terminology source	STRING	ICD-10
+created_date	Record creation date	DATE	2026-10-05
+updated_date	Last update date	DATE	2026-10-05

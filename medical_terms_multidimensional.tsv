@@ -1,0 +1,11 @@
+record_id	category	term	abbreviation	synonyms	description	specialty	body_system	severity	status	source
+MED000001	Diagnosis	Hypertension	HTN	High Blood Pressure	Persistently elevated blood pressure	Cardiology	Cardiovascular	Moderate	Active	ICD10
+MED000002	Diagnosis	Diabetes Mellitus	DM	Diabetes	Metabolic disorder with elevated blood glucose	Endocrinology	Endocrine	Moderate	Active	ICD10
+MED000003	Diagnosis	Asthma		Bronchial Asthma	Chronic inflammatory airway disease	Pulmonology	Respiratory	Mild	Active	ICD10
+MED000004	Diagnosis	Pneumonia		Lung Infection	Infection causing inflammation of air sacs	Pulmonology	Respiratory	Severe	Active	ICD10
+MED000005	Diagnosis	Hypothyroidism		Underactive Thyroid	Reduced thyroid hormone production	Endocrinology	Endocrine	Moderate	Active	ICD10
+MED000006	Prescription	Metformin		Glucophage	Oral antidiabetic medication	Endocrinology	Endocrine	NA	Active	RxNorm
+MED000007	Prescription	Amlodipine		Norvasc	Calcium channel blocker for hypertension	Cardiology	Cardiovascular	NA	Active	RxNorm
+MED000008	Prescription	Atorvastatin		Lipitor	Statin used to lower cholesterol	Cardiology	Cardiovascular	NA	Active	RxNorm
+MED000009	Prescription	Amoxicillin		Amoxil	Broad spectrum antibiotic	Infectious Disease	Immune	NA	Active	RxNorm
+MED000010	Prescription	Omeprazole		Prilosec	Proton pump inhibitor for acid reflux	Gastroenterology	Digestive	NA	Active	RxNorm
