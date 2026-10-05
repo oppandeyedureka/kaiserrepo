@@ -144,3 +144,11 @@ https://machinelearningknowledge.com/keras-implementation-of-vgg16-architecture-
 
 Cats and Dogs - Dataset
 https://www.microsoft.com/en-us/download/details.aspx?id=54765&msockid=3297aa03d3e961d01eb0bd36d28b60b6
+
+Neural Networks
+https://developers.google.com/machine-learning
+	- Deep Learning Tuning Playbook
+	- Text Classification
+	- Generative Adversarial Networks
+	- https://developers.google.com/machine-learning/crash-course/neural-networks/interactive-exercises
+https://playground.tensorflow.org/
