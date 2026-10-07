@@ -152,3 +152,9 @@ https://developers.google.com/machine-learning
 	- Generative Adversarial Networks
 	- https://developers.google.com/machine-learning/crash-course/neural-networks/interactive-exercises
 https://playground.tensorflow.org/
+
+Chunking
+https://www.analyticsvidhya.com/blog/2025/02/types-of-chunking-for-rag-systems/
+https://chunkviz.up.railway.app/
+https://www.geeksforgeeks.org/artificial-intelligence/chunking-strategies/
+https://www.metriccoders.com/post/different-types-of-chunking-methods
