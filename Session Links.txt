@@ -161,3 +161,5 @@ https://www.metriccoders.com/post/different-types-of-chunking-methods
 
 Power BI
 https://learn.microsoft.com/en-us/azure/architecture/databases/database-get-started
+https://synthetichealth.github.io/downloads.html
+https://learn.microsoft.com/en-us/power-query/
